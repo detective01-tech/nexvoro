@@ -6,6 +6,7 @@
   "homepage": "https://wearixastore-cpu.github.io/slootechnoo/",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/fix-vite-perms.cjs",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
