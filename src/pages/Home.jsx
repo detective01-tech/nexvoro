@@ -80,7 +80,18 @@ export default function Home() {
 
       <section className="hero-dark">
         <div className="container">
-          <span className="hero-badge">Live Support Available Now</span>
+          <a
+            href={PHONE_TEL}
+            className="hero-badge"
+            aria-label="Call live support now"
+            onClick={(event) => {
+              event.preventDefault();
+              openPhoneDialer(PHONE_TEL);
+            }}
+          >
+            <span className="hero-badge-dot" aria-hidden="true" />
+            Live Support Available Now
+          </a>
           <h1>Reliable Canada Mobile &amp; Internet Support</h1>
           <p>
             Experiencing issues with your smartphone, SIM, or home broadband? Our independent
