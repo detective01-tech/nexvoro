@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
           <div className="legal-card">
             <h2>1. Introduction</h2>
             <p>
-              At Sol Technology, we are committed to protecting your privacy. This Privacy Policy
+              At HI TECH Solutions, we are committed to protecting your privacy. This Privacy Policy
               explains how we collect, use, disclose, and safeguard your information when you
               visit our website, use our tech support services, or engage with our retail stores
               in Canada. We respect your privacy and are committed to protecting personally
@@ -55,7 +55,7 @@ export default function PrivacyPolicy() {
             </ul>
 
             <h2>3. How We Use Your Information</h2>
-            <p>Sol Technology uses the collected data for various purposes:</p>
+            <p>HI TECH Solutions uses the collected data for various purposes:</p>
             <ul>
               <li>To provide and maintain our tech support services</li>
               <li>To notify you about changes to our service</li>
@@ -84,7 +84,7 @@ export default function PrivacyPolicy() {
 
             <h2>5. Your Rights</h2>
             <p>
-              Sol Technology aims to take reasonable steps to allow you to correct, amend, delete,
+              HI TECH Solutions aims to take reasonable steps to allow you to correct, amend, delete,
               or limit the use of your Personal Data.
             </p>
             <p>
