@@ -4,6 +4,11 @@ import { NAV_LINKS } from '../constants.js'
 export default function Footer({ showDisclaimer = false }) {
   const { pathname } = useLocation()
 
+  const handleOpenSecurity = (e) => {
+    e.preventDefault()
+    window.dispatchEvent(new CustomEvent('open-security-manager'))
+  }
+
   return (
     <footer className="site-footer">
       <div className="container">
@@ -21,6 +26,14 @@ export default function Footer({ showDisclaimer = false }) {
                 {link.label}
               </Link>
             ))}
+            <button
+              type="button"
+              onClick={handleOpenSecurity}
+              style={footerSecurityBtnStyle}
+              title="View Real-time Security Management"
+            >
+              🛡️ Security Status
+            </button>
           </nav>
         </div>
 
@@ -36,8 +49,24 @@ export default function Footer({ showDisclaimer = false }) {
           </div>
         )}
 
-        <div className="footer-bottom">© 2024 HI TECH Solutions. All rights reserved. Professional Canadian Tech Support.</div>
+        <div className="footer-bottom">
+          <span>© 2024 HI TECH Solutions. All rights reserved. Professional Canadian Tech Support.</span>
+          <span style={{ marginLeft: '12px', color: '#10b981', cursor: 'pointer', fontSize: '0.8rem' }} onClick={handleOpenSecurity}>
+            🔒 Real-Time Path Encryption Active
+          </span>
+        </div>
       </div>
     </footer>
   )
 }
+
+const footerSecurityBtnStyle = {
+  background: 'none',
+  border: 'none',
+  color: '#94a3b8',
+  cursor: 'pointer',
+  fontSize: '0.9rem',
+  padding: 0,
+  textDecoration: 'underline',
+}
+

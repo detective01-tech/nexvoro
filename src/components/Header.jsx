@@ -16,6 +16,11 @@ export default function Header({ variant = 'inner' }) {
     event.preventDefault()
     openPhoneDialer(PHONE_TEL)
   }
+  const handleOpenSecurity = (e) => {
+    e.preventDefault()
+    window.dispatchEvent(new CustomEvent('open-security-manager'))
+  }
+
   if (variant === 'home') {
     return (
       <>
@@ -27,9 +32,19 @@ export default function Header({ variant = 'inner' }) {
                 <span className="topbar-tagline">Independent Canada Mobile &amp; Internet Support</span>
               </div>
             </div>
-            <a href={PHONE_TEL} className="topbar-cta" onClick={handleCallClick}>
-              Call Now — No Wait
-            </a>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <button
+                type="button"
+                onClick={handleOpenSecurity}
+                style={securityBadgeStyle}
+                title="Click to view real-time security management & path encryption status"
+              >
+                🔐 Encrypted Paths &amp; Route Guard
+              </button>
+              <a href={PHONE_TEL} className="topbar-cta" onClick={handleCallClick}>
+                Call Now — No Wait
+              </a>
+            </div>
           </div>
         </div>
         <header className={`site-header ${scrolled ? 'site-header--scrolled' : ''}`}>
@@ -56,6 +71,14 @@ export default function Header({ variant = 'inner' }) {
           HI TECH Solutions
         </Link>
         <div className="header-actions">
+          <button
+            type="button"
+            onClick={handleOpenSecurity}
+            style={securityBadgeStyle}
+            title="Click to view real-time security status"
+          >
+            🔐 Security
+          </button>
           <a href={PHONE_TEL} className="btn btn-outline-navy btn-sm" onClick={handleCallClick}>
             Helpline
           </a>
@@ -66,4 +89,18 @@ export default function Header({ variant = 'inner' }) {
       </div>
     </header>
   )
+}
+
+const securityBadgeStyle = {
+  background: 'rgba(16, 185, 129, 0.15)',
+  border: '1px solid rgba(16, 185, 129, 0.3)',
+  color: '#10b981',
+  borderRadius: '20px',
+  padding: '4px 10px',
+  fontSize: '0.75rem',
+  fontWeight: 600,
+  cursor: 'pointer',
+  display: 'inline-flex',
+  alignItems: 'center',
+  gap: '4px',
 }
