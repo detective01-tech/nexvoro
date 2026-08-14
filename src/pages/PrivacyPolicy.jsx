@@ -9,101 +9,100 @@ export default function PrivacyPolicy() {
       <section className="section legal-page" style={{ paddingBottom: 100 }}>
         <div className="container">
           <h1>Privacy Policy</h1>
-          <p className="legal-updated">Last Updated: October 24, 2024</p>
+          <p className="legal-updated">Last Updated: August 15, 2026</p>
 
           <div className="legal-card">
-            <h2>1. Introduction</h2>
+            <h2>1. Introduction &amp; General Information</h2>
             <p>
-              At HI TECH Solutions, we are committed to protecting your privacy. This Privacy Policy
-              explains how we collect, use, disclose, and safeguard your information when you
-              visit our website, use our tech support services, or engage with our retail stores
-              in Canada. We respect your privacy and are committed to protecting personally
-              identifiable information you may provide us.
+              At HI TECH Solutions (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;), we treat your privacy and transparency with the highest priority. 
+              This Privacy Policy details how we collect, use, store, protect, and share your personal data when you access our website, use our tech advisory services, or interact with our Canadian helpline.
             </p>
             <p>
-              By using our services, you agree to the collection and use of information in
-              accordance with this policy. We maintain this privacy policy to inform you of what
-              information we collect on our Website, how we use this information, and under what
-              circumstances we may disclose the information to third parties.
+              By accessing or using our services, you consent to the data practices described in this Privacy Policy in compliance with Canada's Personal Information Protection and Electronic Documents Act (PIPEDA) and applicable provincial privacy legislation.
             </p>
 
             <h2>2. Information We Collect</h2>
-            <p>
-              We collect several different types of information for various purposes to provide
-              and improve our service to you.
-            </p>
+            <p>We collect information to deliver responsive technical assistance and optimize user experiences:</p>
             <ul>
               <li>
-                <strong>Personal Data:</strong> While using our Service, we may ask you to provide
-                us with certain personally identifiable information that can be used to contact or
-                identify you (&ldquo;Personal Data&rdquo;). Personally identifiable information may
-                include, but is not limited to: Email address, First name and last name, Phone
-                number, Address, State, Province, ZIP/Postal code, City.
+                <strong>Personal Identification Information:</strong> Voluntarily provided details such as your full name, phone number, email address, and postal code when you request technical aid or contact our support team.
               </li>
               <li>
-                <strong>Usage Data:</strong> We may also collect information how the Service is
-                accessed and used (&ldquo;Usage Data&rdquo;). This Usage Data may include
-                information such as your computer&rsquo;s Internet Protocol address (e.g. IP
-                address), browser type, browser version, the pages of our Service that you visit,
-                the time and date of your visit, the time spent on those pages, unique device
-                identifiers and other diagnostic data.
+                <strong>Technical &amp; Usage Diagnostics:</strong> Automatically collected information including your Internet Protocol (IP) address, browser type and version, device identifier, time zone, referral links, and page visit duration.
               </li>
               <li>
-                <strong>Tracking &amp; Cookies Data:</strong> We use cookies and similar tracking
-                technologies to track the activity on our Service and hold certain information.
+                <strong>Communication Logs:</strong> Summaries of phone consultations or support inquiries to ensure quality assurance, service fulfillment, and troubleshooting accuracy.
               </li>
             </ul>
 
-            <h2>3. How We Use Your Information</h2>
-            <p>HI TECH Solutions uses the collected data for various purposes:</p>
+            <h2>3. How We Use Your Data</h2>
+            <p>Collected information is strictly used for legitimate business and technical support purposes:</p>
             <ul>
-              <li>To provide and maintain our tech support services</li>
-              <li>To notify you about changes to our service</li>
-              <li>To allow you to participate in interactive features of our service when you choose to do so</li>
-              <li>To provide customer support and troubleshoot technical issues</li>
-              <li>To gather analysis or valuable information so that we can improve our services</li>
-              <li>To monitor the usage of our website and services</li>
-              <li>To detect, prevent and address technical issues</li>
+              <li>To provide, operate, and maintain independent mobile and internet troubleshooting services.</li>
+              <li>To connect you with qualified Canadian technical specialists when you call our helpline.</li>
+              <li>To evaluate website usability, detect security vulnerabilities, and enhance site speed and functionality.</li>
+              <li>To respond promptly to customer service requests, inquiries, and feedback.</li>
+              <li>To comply with regulatory, tax, and legal requirements.</li>
             </ul>
 
-            <h2>4. Data Security</h2>
+            <h2>4. Third-Party Advertising &amp; Google Ads Disclosure</h2>
             <p>
-              The security of your data is important to us, but remember that no method of
-              transmission over the Internet, or method of electronic storage is 100% secure.
-              While we strive to use commercially acceptable means to protect your Personal Data,
-              we cannot guarantee its absolute security.
-            </p>
-            <p>
-              We implement a variety of security measures to maintain the safety of your personal
-              information when you enter, submit, or access your personal information. All
-              supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL)
-              technology and then encrypted into our Payment gateway providers database only to be
-              accessible by those authorized with special access rights to such systems, and are
-              required to keep the information confidential.
-            </p>
-
-            <h2>5. Your Rights</h2>
-            <p>
-              HI TECH Solutions aims to take reasonable steps to allow you to correct, amend, delete,
-              or limit the use of your Personal Data.
-            </p>
-            <p>
-              If you wish to be informed what Personal Data we hold about you and if you want it
-              to be removed from our systems, please contact us. In certain circumstances, you
-              have the following data protection rights:
+              We utilize advertising services, including Google Ads, to promote our independent tech advisory services online.
             </p>
             <ul>
-              <li>The right to access, update or to delete the information we have on you.</li>
               <li>
-                The right of rectification. You have the right to have your information rectified
-                if that information is inaccurate or incomplete.
+                <strong>Advertising Cookies &amp; Remarketing:</strong> Third-party vendors, including Google, use cookies or unique device identifiers to serve ads based on prior visits to our website.
               </li>
-              <li>The right to object. You have the right to object to our processing of your Personal Data.</li>
               <li>
-                The right of restriction. You have the right to request that we restrict the
-                processing of your personal information.
+                <strong>Google Analytics &amp; Tag Manager:</strong> We use web analytics tools to measure audience interactions and campaign effectiveness. Google Analytics processes anonymized IP addresses and user engagement metrics.
+              </li>
+              <li>
+                <strong>Opt-Out Options:</strong> Visitors may opt out of personalized Google advertising by visiting <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Google Ad Settings</a> or opting out of third-party cookie usage via the <a href="https://optout.networkadvertising.org" target="_blank" rel="noopener noreferrer">Network Advertising Initiative Opt-Out Page</a>.
               </li>
             </ul>
+
+            <h2>5. Independent Service &amp; Commission Disclosure</h2>
+            <p>
+              HI TECH Solutions operates strictly as an independent third-party provider of general technical support, device configuration assistance, and broadband troubleshooting. We are not owned, operated by, or directly affiliated with telecommunication carriers (such as Rogers, Bell, Telus, Fido, or Virgin Plus). In certain instances, we may receive compensation or affiliate commission from service partners if you choose to explore third-party service plans or offerings recommended during consultations.
+            </p>
+
+            <h2>6. Cookies &amp; Tracking Technologies</h2>
+            <p>
+              Our website uses essential, preference, and analytical cookies. Essential cookies ensure core functionality, security, and page loading speed. You can manage or disable cookie preferences directly within your web browser settings; however, disabling certain cookies may affect page functionality.
+            </p>
+
+            <h2>7. Information Sharing &amp; Disclosure</h2>
+            <p>
+              We do not sell, trade, or rent personal data to third parties. We may disclose your information strictly under the following limited circumstances:
+            </p>
+            <ul>
+              <li><strong>Trusted Service Providers:</strong> Secure third-party vendors assisting in website hosting, phone infrastructure, or analytics under strict non-disclosure obligations.</li>
+              <li><strong>Legal Compliance:</strong> When mandated by applicable laws, subpoenas, court orders, or governmental requests to protect rights, property, or safety.</li>
+            </ul>
+
+            <h2>8. Data Security &amp; Retention</h2>
+            <p>
+              We employ industry-standard administrative, technical, and physical security safeguards (including HTTPS/TLS encryption) to prevent unauthorized access, disclosure, or alteration of personal data. Data is retained only as long as necessary to fulfill support purposes or meet legal retention requirements.
+            </p>
+
+            <h2>9. Your Canadian Privacy Rights (PIPEDA)</h2>
+            <p>Under PIPEDA and applicable Canadian laws, you maintain the following rights regarding your personal data:</p>
+            <ul>
+              <li>The right to request access to the personal data we hold about you.</li>
+              <li>The right to request correction or updating of inaccurate personal information.</li>
+              <li>The right to withdraw consent for processing or request data deletion, subject to legal obligations.</li>
+            </ul>
+
+            <h2>10. Contact Us</h2>
+            <p>
+              If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact our privacy representative:
+            </p>
+            <p style={{ marginTop: 10 }}>
+              <strong>HI TECH Solutions Privacy Office</strong><br />
+              Email: privacy@hitechsolutions-support.ca<br />
+              Toll-Free Helpline: 877 627 8313<br />
+              Location: Canada
+            </p>
           </div>
         </div>
       </section>
@@ -112,3 +111,4 @@ export default function PrivacyPolicy() {
     </>
   )
 }
+
