@@ -52,8 +52,9 @@ export default function Header({ variant = 'inner' }) {
   return (
     <header className={`site-header ${scrolled ? 'site-header--scrolled' : ''}`}>
       <div className="container">
-        <Link to="/" className="logo">
-          HI TECH Solutions
+        <Link to="/" className="logo-stacked">
+          HI TECH
+          <span>SOLUTIONS</span>
         </Link>
         <div className="header-actions">
           <a href={PHONE_TEL} className="btn btn-outline-navy btn-sm" onClick={handleCallClick}>
