@@ -50,8 +50,20 @@
       gtag('event', 'conversion', {
           'send_to': 'AW-18383822075/rPCiCKLPu-AcEPu5i75E',
           'value': 1.0,
-          'currency': 'CAD'
-      });
+    <!-- Event snippet for Contact (1) conversion page -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-18383822075/wOewCKu-veQcEPu5i75E',
+            'event_callback': callback
+        });
+        return false;
+      }
     </script>
   </head>
   <body>
