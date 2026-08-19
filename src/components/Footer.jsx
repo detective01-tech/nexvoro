@@ -9,7 +9,7 @@ export default function Footer({ showDisclaimer = false }) {
       <div className="container">
         <div className="footer-top">
           <div>
-            <div className="footer-brand">HI TECH Solutions</div>
+            <div className="footer-brand">Hi Tech Global Solutions</div>
           </div>
           <nav className="footer-nav">
             {NAV_LINKS.map((link) => (
@@ -26,17 +26,14 @@ export default function Footer({ showDisclaimer = false }) {
 
         {showDisclaimer && (
           <div className="footer-notice">
-            <strong style={{ color: '#e2e8f0' }}>Important Notice:</strong> HI TECH Solutions operates
-            as an independent third-party technology consulting and advisory service. We are not officially
-            affiliated with, endorsed by, or directly connected to major carriers like Rogers, Bell,
-            Telus, Fido, Virgin Plus, or any specific network provider. Our role is to offer general
-            advisory services, configuration advice, and guidance to consumers using any Canadian network or
-            broadband service. We aim to help you optimize setups independently or guide you toward
-            the appropriate official resources based on your provider.
+            <strong style={{ color: '#e2e8f0' }}>Important Notice:</strong> Hi Tech Global Solutions operates
+            as a dedicated technology consulting and advisory service. All trademarks, service marks, and company names are the property of their respective owners. Our role is to offer general
+            advisory services, configuration advice, and guidance to consumers. We aim to help you optimize setups independently or guide you toward
+            the appropriate resources based on your needs.
           </div>
         )}
 
-        <div className="footer-bottom">© 2024 HI TECH Solutions. All rights reserved. Professional Canadian Tech Consulting.</div>
+        <div className="footer-bottom">© 2024 Hi Tech Global Solutions. All rights reserved. Professional Canadian Tech Consulting.</div>
       </div>
     </footer>
   )

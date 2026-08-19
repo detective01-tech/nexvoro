@@ -49,7 +49,7 @@ export default function About() {
           </div>
           <img
             src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop"
-            alt="HI TECH Solutions team collaborating around a whiteboard"
+            alt="Hi Tech Global Solutions team collaborating around a whiteboard"
           />
         </div>
       </section>
@@ -61,7 +61,7 @@ export default function About() {
           </div>
           <h2 className="section-title">Our Mission</h2>
           <p className="section-subtitle" style={{ maxWidth: 640, margin: '0 auto' }}>
-            At HI TECH Solutions, our goal is simple: to demystify technology and make it work
+            At Hi Tech Global Solutions, our goal is simple: to demystify technology and make it work
             seamlessly for every Canadian. We believe that robust IT consulting shouldn’t be a
             luxury, but a reliable utility that empowers businesses and individuals to thrive in a
             digital world without frustration.
@@ -93,14 +93,14 @@ export default function About() {
         <div className="container split">
           <img
             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop"
-            alt="HI TECH Solutions storefront on a Toronto street"
+            alt="Hi Tech Global Solutions storefront on a Toronto street"
           />
           <div>
             <h2 className="section-title" style={{ textAlign: 'left' }}>
               Our Story
             </h2>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: 16, lineHeight: 1.7 }}>
-              Founded in 2015, HI TECH Solutions began with a shared frustration among a group of IT
+              Founded in 2015, Hi Tech Global Solutions began with a shared frustration among a group of IT
               professionals who noticed a significant gap in the market: small to medium-sized
               Canadian businesses were struggling to find reliable, understandable technical
               consulting.
@@ -112,7 +112,7 @@ export default function About() {
             </p>
             <p style={{ color: 'var(--color-text-muted)', lineHeight: 1.7 }}>
               Today, we continue to uphold our founding principle: delivering enterprise-level
-              expertise with the approachability of a helpful neighbor. We are HI TECH Solutions, and
+              expertise with the approachability of a helpful neighbor. We are Hi Tech Global Solutions, and
               we are here to keep Canada connected.
             </p>
           </div>

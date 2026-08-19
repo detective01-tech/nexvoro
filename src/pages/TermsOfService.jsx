@@ -10,7 +10,7 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          By accessing and using the services provided by HI TECH Solutions (&ldquo;we,&rdquo;
+          By accessing and using the services provided by Hi Tech Global Solutions (&ldquo;we,&rdquo;
           &ldquo;us,&rdquo; or &ldquo;our&rdquo;), you agree to be bound by these Terms of
           Service. If you do not agree to these terms, please do not use our services.
         </p>
@@ -29,7 +29,7 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          HI TECH Solutions provides professional Canadian technology consulting services, including but not
+          Hi Tech Global Solutions provides professional Canadian technology consulting services, including but not
           limited to hardware advice, software configuration, network optimization, and data
           security guidance.
         </p>
@@ -55,7 +55,7 @@ const SECTIONS = [
           <li>Treat our staff and consultants with respect.</li>
         </ul>
         <div className="tos-callout">
-          <strong>Important Note:</strong> HI TECH Solutions is not responsible for data loss. Data
+          <strong>Important Note:</strong> Hi Tech Global Solutions is not responsible for data loss. Data
           backup is strictly the responsibility of the user.
         </div>
       </>
@@ -68,7 +68,7 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          To the fullest extent permitted by applicable Canadian law, HI TECH Solutions shall not be
+          To the fullest extent permitted by applicable Canadian law, Hi Tech Global Solutions shall not be
           liable for any indirect, incidental, special, consequential, or punitive damages,
           including but not limited to loss of profits, data, use, or goodwill, arising out of or
           in connection with our services.

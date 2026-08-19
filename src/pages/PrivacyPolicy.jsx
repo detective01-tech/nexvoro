@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
           <div className="legal-card">
             <h2>1. Introduction &amp; General Information</h2>
             <p>
-              At HI TECH Solutions (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;), we treat your privacy and transparency with the highest priority. 
+              At Hi Tech Global Solutions (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;), we treat your privacy and transparency with the highest priority. 
               This Privacy Policy details how we collect, use, store, protect, and share your personal data when you access our website, use our tech advisory services, or interact with our Canadian helpline.
             </p>
             <p>
@@ -45,25 +45,25 @@ export default function PrivacyPolicy() {
               <li>To comply with regulatory, tax, and legal requirements.</li>
             </ul>
 
-            <h2>4. Third-Party Advertising &amp; Google Ads Disclosure</h2>
+            <h2>4. Advertising &amp; Google Ads Disclosure</h2>
             <p>
               We utilize advertising services, including Google Ads, to promote our independent tech advisory services online.
             </p>
             <ul>
               <li>
-                <strong>Advertising Cookies &amp; Remarketing:</strong> Third-party vendors, including Google, use cookies or unique device identifiers to serve ads based on prior visits to our website.
+                <strong>Advertising Cookies &amp; Remarketing:</strong> Vendors, including Google, use cookies or unique device identifiers to serve ads based on prior visits to our website.
               </li>
               <li>
                 <strong>Google Analytics &amp; Tag Manager:</strong> We use web analytics tools to measure audience interactions and campaign effectiveness. Google Analytics processes anonymized IP addresses and user engagement metrics.
               </li>
               <li>
-                <strong>Opt-Out Options:</strong> Visitors may opt out of personalized Google advertising by visiting <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Google Ad Settings</a> or opting out of third-party cookie usage via the <a href="https://optout.networkadvertising.org" target="_blank" rel="noopener noreferrer">Network Advertising Initiative Opt-Out Page</a>.
+                <strong>Opt-Out Options:</strong> Visitors may opt out of personalized Google advertising by visiting <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Google Ad Settings</a> or opting out of cookie usage via the <a href="https://optout.networkadvertising.org" target="_blank" rel="noopener noreferrer">Network Advertising Initiative Opt-Out Page</a>.
               </li>
             </ul>
 
-            <h2>5. Independent Service &amp; Commission Disclosure</h2>
+            <h2>5. Dedicated Service &amp; Commission Disclosure</h2>
             <p>
-              HI TECH Solutions operates strictly as an independent third-party provider of general technology consulting, device configuration assistance, and broadband advisory. We are not owned, operated by, or directly affiliated with telecommunication carriers (such as Rogers, Bell, Telus, Fido, or Virgin Plus). In certain instances, we may receive compensation or affiliate commission from service partners if you choose to explore third-party service plans or offerings recommended during consultations.
+              Hi Tech Global Solutions operates strictly as a dedicated provider of general technology consulting, device configuration assistance, and broadband advisory. All trademarks and brand names belong to their respective owners. In certain instances, we may receive compensation or affiliate commission from service partners if you choose to explore service plans or offerings recommended during consultations.
             </p>
 
             <h2>6. Cookies &amp; Tracking Technologies</h2>
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
               We do not sell, trade, or rent personal data to third parties. We may disclose your information strictly under the following limited circumstances:
             </p>
             <ul>
-              <li><strong>Trusted Service Providers:</strong> Secure third-party vendors assisting in website hosting, phone infrastructure, or analytics under strict non-disclosure obligations.</li>
+              <li><strong>Trusted Service Providers:</strong> Secure vendors assisting in website hosting, phone infrastructure, or analytics under strict non-disclosure obligations.</li>
               <li><strong>Legal Compliance:</strong> When mandated by applicable laws, subpoenas, court orders, or governmental requests to protect rights, property, or safety.</li>
             </ul>
 
@@ -98,7 +98,7 @@ export default function PrivacyPolicy() {
               If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact our privacy representative:
             </p>
             <p style={{ marginTop: 10 }}>
-              <strong>HI TECH Solutions Privacy Office</strong><br />
+              <strong>Hi Tech Global Solutions Privacy Office</strong><br />
               Email: privacy@hitechsolutions-support.ca<br />
               Toll-Free Helpline: 877 627 8313<br />
               Location: Canada

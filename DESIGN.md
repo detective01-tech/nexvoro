@@ -1,5 +1,5 @@
 ---
-name: HI TECH Solutions Systems
+name: Hi Tech Global Solutions Systems
 colors:
   surface: '#f7f9fb'
   surface-dim: '#d8dadc'
