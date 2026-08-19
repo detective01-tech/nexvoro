@@ -24,7 +24,7 @@ export default function Header({ variant = 'inner' }) {
             <div className="topbar-left">
               <div className="topbar-text">
                 <span className="topbar-phone">Free helpline: <a href={PHONE_TEL}>{PHONE_DISPLAY}</a></span>
-                <span className="topbar-tagline">Independent Canada Mobile &amp; Internet Support</span>
+                <span className="topbar-tagline">Independent Canada Mobile &amp; Internet Advisory</span>
               </div>
             </div>
             <a href={PHONE_TEL} className="topbar-cta" onClick={handleCallClick}>

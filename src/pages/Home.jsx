@@ -4,7 +4,7 @@ import { PhoneIcon, ArrowIcon } from '../components/Icons.jsx'
 import { PHONE_DISPLAY, PHONE_TEL, openPhoneDialer } from '../constants.js'
 
 const TRUST_ITEMS = [
-  'Canada-Based Support Team',
+  'Canada-Based Consulting Team',
   'Freephone 0800 Number',
   'Fast Response Times',
   'Safe & Secure Service',
@@ -14,8 +14,8 @@ const TRUST_ITEMS = [
 
 const SERVICES = [
   {
-    title: 'SIM Troubleshooting',
-    desc: 'Is your SIM card not registering? We can guide you through activation steps, arrange replacements, and troubleshoot connection errors.',
+    title: 'SIM Setup Advisory',
+    desc: 'Is your SIM card not registering? We can guide you through activation steps, arrange replacements, and advise on connection errors.',
     link: 'Help with SIM issues',
   },
   {
@@ -24,7 +24,7 @@ const SERVICES = [
     link: 'Fix connectivity',
   },
   {
-    title: 'Billing Support',
+    title: 'Billing Advisory',
     desc: 'Confused by an unexpected bill? We can help you understand charges, manage your account, and navigate billing disputes.',
     link: 'Resolve billing',
   },
@@ -51,7 +51,7 @@ const SERVICES = [
   {
     title: 'Lost or Stolen Phones',
     desc: 'Missing device? We’ll advise on immediate steps to take, including how to block your handset and secure your personal account.',
-    link: 'Urgent support',
+    link: 'Urgent consultation',
   },
 ]
 
@@ -83,16 +83,16 @@ export default function Home() {
           <a
             href={PHONE_TEL}
             className="hero-badge"
-            aria-label="Call live support now"
+            aria-label="Call live consultation now"
             onClick={(event) => {
               event.preventDefault();
               openPhoneDialer(PHONE_TEL);
             }}
           >
             <span className="hero-badge-dot" aria-hidden="true" />
-            Live Support Available Now
+            Live Consultation Available Now
           </a>
-          <h1>Reliable Canada Mobile &amp; Internet Support</h1>
+          <h1>Reliable Canada Mobile &amp; Internet Advisory</h1>
           <p>
             Experiencing issues with your smartphone, SIM, or home broadband? Our independent
             Canadian tech experts are standing by to provide fast, friendly, and hassle-free
@@ -102,7 +102,7 @@ export default function Home() {
             <PhoneIcon width={18} height={18} /> Call Free: {PHONE_DISPLAY}
           </a>
           <p className="hero-fineprint">
-            This is an independent support service. We may earn commission from partners. Calls
+            This is an independent advisory service. We may earn commission from partners. Calls
             are free from Canadian landlines and mobiles.
           </p>
         </div>
@@ -146,7 +146,7 @@ export default function Home() {
         <div className="container">
           <h2 className="section-title">Get Help in 3 Easy Steps</h2>
           <p className="section-subtitle" style={{ margin: '0 auto 48px' }}>
-            Skip the long queues and confusing menus. Experience fast, direct support when it
+            Skip the long queues and confusing menus. Experience fast, direct guidance when it
             matters most.
           </p>
 
