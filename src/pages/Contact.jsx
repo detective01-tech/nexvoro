@@ -20,7 +20,7 @@ export default function Contact() {
         <div className="container">
           <h1>How Can We Help You Today?</h1>
           <p>
-            Our Canadian technical support team is standing by to resolve your issues quickly and
+            Our Canadian technology consulting team is standing by to resolve your issues quickly and
             professionally.
           </p>
         </div>
@@ -86,7 +86,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3>Helpline</h3>
-                  <p>For immediate assistance, call our support line.</p>
+                  <p>For immediate assistance, call our consultation line.</p>
                   <a href={HELPLINE_TEL} className="phone-link" onClick={(event) => { event.preventDefault(); openPhoneDialer(HELPLINE_TEL) }}>
                     {HELPLINE_DISPLAY}
                   </a>
@@ -123,7 +123,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3>Our Stores</h3>
-                  <p>Prefer in-person support? Visit one of our service centers.</p>
+                  <p>Prefer in-person consultation? Visit one of our service centers.</p>
                   <a href="#locations" className="service-link">
                     Find a location <ArrowIcon width={14} height={14} />
                   </a>
@@ -138,7 +138,7 @@ export default function Contact() {
         <div className="container text-center">
           <h2 className="section-title">Need Immediate Assistance?</h2>
           <p className="section-subtitle" style={{ margin: '0 auto 32px' }}>
-            Our technicians are available to help you resolve critical issues right now.
+            Our consultants are available to help you resolve critical issues right now.
           </p>
           <a href={HELPLINE_TEL} className="btn btn-primary" onClick={(event) => { event.preventDefault(); openPhoneDialer(HELPLINE_TEL) }}>
             <PhoneIcon width={18} height={18} /> Call Now

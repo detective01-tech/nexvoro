@@ -15,7 +15,7 @@ const SECTIONS = [
           Service. If you do not agree to these terms, please do not use our services.
         </p>
         <p>
-          These terms apply to all users of our professional tech support services, whether
+          These terms apply to all users of our professional technology consulting services, whether
           accessed via our website, over the phone, or in person at our Canadian store
           locations.
         </p>
@@ -29,9 +29,9 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          HI TECH Solutions provides professional Canadian tech support services, including but not
-          limited to hardware repair, software troubleshooting, network configuration, and data
-          recovery.
+          HI TECH Solutions provides professional Canadian technology consulting services, including but not
+          limited to hardware advice, software configuration, network optimization, and data
+          security guidance.
         </p>
         <p>
           We reserve the right to modify, suspend, or discontinue any part of our services at any
@@ -49,10 +49,10 @@ const SECTIONS = [
       <>
         <p>As a user of our services, you agree to:</p>
         <ul>
-          <li>Provide accurate and complete information when requesting support.</li>
-          <li>Back up all data before submitting a device for repair or service.</li>
-          <li>Ensure you have the legal right to authorize repairs or modifications to the devices you submit.</li>
-          <li>Treat our staff and technicians with respect.</li>
+          <li>Provide accurate and complete information when requesting consulting.</li>
+          <li>Back up all data before submitting a device for inspection or service.</li>
+          <li>Ensure you have the legal right to authorize adjustments or modifications to the devices you submit.</li>
+          <li>Treat our staff and consultants with respect.</li>
         </ul>
         <div className="tos-callout">
           <strong>Important Note:</strong> HI TECH Solutions is not responsible for data loss. Data
@@ -131,7 +131,7 @@ export default function TermsOfService() {
         <div className="container">
           <h1>Terms of Service</h1>
           <p>
-            Please read these terms carefully before using our professional tech support
+            Please read these terms carefully before using our professional technology consulting
             services. Last updated: October 2023.
           </p>
         </div>

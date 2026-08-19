@@ -25,20 +25,20 @@ export default function PrivacyPolicy() {
             <p>We collect information to deliver responsive technical assistance and optimize user experiences:</p>
             <ul>
               <li>
-                <strong>Personal Identification Information:</strong> Voluntarily provided details such as your full name, phone number, email address, and postal code when you request technical aid or contact our support team.
+                <strong>Personal Identification Information:</strong> Voluntarily provided details such as your full name, phone number, email address, and postal code when you request technology consulting or contact our advisory team.
               </li>
               <li>
                 <strong>Technical &amp; Usage Diagnostics:</strong> Automatically collected information including your Internet Protocol (IP) address, browser type and version, device identifier, time zone, referral links, and page visit duration.
               </li>
               <li>
-                <strong>Communication Logs:</strong> Summaries of phone consultations or support inquiries to ensure quality assurance, service fulfillment, and troubleshooting accuracy.
+                <strong>Communication Logs:</strong> Summaries of phone consultations or consulting inquiries to ensure quality assurance, service fulfillment, and advisory accuracy.
               </li>
             </ul>
 
             <h2>3. How We Use Your Data</h2>
-            <p>Collected information is strictly used for legitimate business and technical support purposes:</p>
+            <p>Collected information is strictly used for legitimate business and technology consulting purposes:</p>
             <ul>
-              <li>To provide, operate, and maintain independent mobile and internet troubleshooting services.</li>
+              <li>To provide, operate, and maintain independent mobile and internet advisory services.</li>
               <li>To connect you with qualified Canadian technical specialists when you call our helpline.</li>
               <li>To evaluate website usability, detect security vulnerabilities, and enhance site speed and functionality.</li>
               <li>To respond promptly to customer service requests, inquiries, and feedback.</li>
@@ -63,7 +63,7 @@ export default function PrivacyPolicy() {
 
             <h2>5. Independent Service &amp; Commission Disclosure</h2>
             <p>
-              HI TECH Solutions operates strictly as an independent third-party provider of general technical support, device configuration assistance, and broadband troubleshooting. We are not owned, operated by, or directly affiliated with telecommunication carriers (such as Rogers, Bell, Telus, Fido, or Virgin Plus). In certain instances, we may receive compensation or affiliate commission from service partners if you choose to explore third-party service plans or offerings recommended during consultations.
+              HI TECH Solutions operates strictly as an independent third-party provider of general technology consulting, device configuration assistance, and broadband advisory. We are not owned, operated by, or directly affiliated with telecommunication carriers (such as Rogers, Bell, Telus, Fido, or Virgin Plus). In certain instances, we may receive compensation or affiliate commission from service partners if you choose to explore third-party service plans or offerings recommended during consultations.
             </p>
 
             <h2>6. Cookies &amp; Tracking Technologies</h2>
@@ -82,7 +82,7 @@ export default function PrivacyPolicy() {
 
             <h2>8. Data Security &amp; Retention</h2>
             <p>
-              We employ industry-standard administrative, technical, and physical security safeguards (including HTTPS/TLS encryption) to prevent unauthorized access, disclosure, or alteration of personal data. Data is retained only as long as necessary to fulfill support purposes or meet legal retention requirements.
+              We employ industry-standard administrative, technical, and physical security safeguards (including HTTPS/TLS encryption) to prevent unauthorized access, disclosure, or alteration of personal data. Data is retained only as long as necessary to fulfill consulting purposes or meet legal retention requirements.
             </p>
 
             <h2>9. Your Canadian Privacy Rights (PIPEDA)</h2>

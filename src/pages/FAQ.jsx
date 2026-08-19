@@ -10,7 +10,7 @@ const CATEGORIES = [
     items: [
       { q: 'How do I activate my new SIM card?', a: 'Insert the SIM, then call our helpline and an advisor will walk you through activation with your carrier in a few minutes.' },
       { q: 'Why is my data speed slow?', a: 'Slow data is usually caused by network congestion, a distant tower, or an outdated APN setting — we can check all three with you.' },
-      { q: 'Does my plan support 5G?', a: '5G support depends on your device and your carrier plan. Tell us your phone model and we’ll confirm eligibility.' },
+      { q: 'Does my plan include 5G?', a: '5G eligibility depends on your device and your carrier plan. Tell us your phone model and we’ll confirm eligibility.' },
     ],
   },
   {
@@ -82,7 +82,7 @@ export default function FAQ() {
         <div className="container text-center">
           <h1 style={{ fontSize: 36, marginBottom: 12 }}>Frequently Asked Questions</h1>
           <p className="section-subtitle" style={{ maxWidth: 560, margin: '0 auto 32px' }}>
-            Find answers to the most common questions about our tech support services, billing,
+            Find answers to the most common questions about our technology consulting services, billing,
             and account management.
           </p>
           <div className="search-bar">
@@ -106,10 +106,10 @@ export default function FAQ() {
         <div className="container text-center">
           <h2 className="section-title">Still have questions?</h2>
           <p className="section-subtitle" style={{ margin: '0 auto 32px' }}>
-            Our Canadian tech support team is ready to help you with anything else you need.
+            Our Canadian technology consulting team is ready to help you with anything else you need.
           </p>
           <Link to="/contact" className="btn btn-primary">
-            Contact Support
+            Contact Consultants
           </Link>
         </div>
       </section>

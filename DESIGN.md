@@ -113,7 +113,7 @@ spacing:
 
 ## Brand & Style
 
-The design system is built for a professional, helpful, and reliable Canadian tech support service. It utilizes a **Corporate / Modern** aesthetic that emphasizes clarity, trust, and accessibility. 
+The design system is built for a professional, helpful, and reliable Canadian technology consulting service. It utilizes a **Corporate / Modern** aesthetic that emphasizes clarity, trust, and accessibility. 
 
 The visual language is characterized by high legibility, structured layouts, and a calming professional palette. It balances technical precision with a "helpful neighbor" persona, ensuring that even complex technical services feel approachable to the target audience. The interface remains grounded through the use of solid backgrounds and clear information hierarchy, avoiding unnecessary flourishes in favor of functional elegance.
 
@@ -151,7 +151,7 @@ Hero sections and footers use the **Dark Navy (#1E293B)** as a flat, deep layer 
 
 ## Shapes
 
-The design system utilizes **Rounded (0.5rem)** corners for all standard components like cards and buttons. This provides a balance between the precision of technology (straight lines) and the friendliness of support services (rounded edges).
+The design system utilizes **Rounded (0.5rem)** corners for all standard components like cards and buttons. This provides a balance between the precision of technology (straight lines) and the friendliness of consulting services (rounded edges).
 
 - **Cards/Buttons:** 8px (0.5rem) radius.
 - **Form Inputs:** 8px (0.5rem) radius.

@@ -20,8 +20,8 @@ const VALUES = [
   },
   {
     icon: <PinIcon width={18} height={18} />,
-    title: 'Local Support',
-    desc: 'Proudly Canadian, providing context-aware, community-focused tech assistance.',
+    title: 'Local Consulting',
+    desc: 'Proudly Canadian, providing context-aware, community-focused tech consulting.',
   },
 ]
 
@@ -39,7 +39,7 @@ export default function About() {
             </h1>
             <p>
               We are dedicated to providing reliable, accessible, and expert technology solutions
-              tailored to the unique needs of Canadians. From local support to comprehensive
+              tailored to the unique needs of Canadians. From local consulting to comprehensive
               enterprise services, we bridge the gap between complex tech and everyday
               functionality.
             </p>
@@ -62,7 +62,7 @@ export default function About() {
           <h2 className="section-title">Our Mission</h2>
           <p className="section-subtitle" style={{ maxWidth: 640, margin: '0 auto' }}>
             At HI TECH Solutions, our goal is simple: to demystify technology and make it work
-            seamlessly for every Canadian. We believe that robust IT support shouldn’t be a
+            seamlessly for every Canadian. We believe that robust IT consulting shouldn’t be a
             luxury, but a reliable utility that empowers businesses and individuals to thrive in a
             digital world without frustration.
           </p>
@@ -103,11 +103,11 @@ export default function About() {
               Founded in 2015, HI TECH Solutions began with a shared frustration among a group of IT
               professionals who noticed a significant gap in the market: small to medium-sized
               Canadian businesses were struggling to find reliable, understandable technical
-              support.
+              consulting.
             </p>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: 16, lineHeight: 1.7 }}>
               What started as a small consultancy in Toronto has grown into a nationwide network
-              of support hubs. We realized that technology shouldn’t be a barrier to success; it
+              of consulting hubs. We realized that technology shouldn’t be a barrier to success; it
               should be the catalyst.
             </p>
             <p style={{ color: 'var(--color-text-muted)', lineHeight: 1.7 }}>
