@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import { PhoneIcon, ClockIcon, StoreIcon, SendIcon, ArrowIcon } from '../components/Icons.jsx'
-import { HELPLINE_DISPLAY, HELPLINE_TEL, openPhoneDialer } from '../constants.js'
+import { OFFICE_DISPLAY, OFFICE_TEL, openPhoneDialer } from '../constants.js'
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
@@ -20,8 +20,7 @@ export default function Contact() {
         <div className="container">
           <h1>How Can We Help You Today?</h1>
           <p>
-            Our Canadian technology consulting team is standing by to resolve your issues quickly and
-            professionally.
+            Our Canadian technology consulting team can discuss your setup, planning, and advisory needs.
           </p>
         </div>
       </section>
@@ -59,8 +58,8 @@ export default function Contact() {
                       <option value="" disabled>
                         Select an option
                       </option>
-                      <option>SIM &amp; Network</option>
-                      <option>Billing</option>
+                      <option>Device &amp; Network Setup</option>
+                      <option>Plan &amp; Tariff Advisory</option>
                       <option>Devices</option>
                       <option>Account Security</option>
                       <option>Other</option>
@@ -85,10 +84,10 @@ export default function Contact() {
                   <PhoneIcon width={18} height={18} />
                 </div>
                 <div>
-                  <h3>Helpline</h3>
-                  <p>For immediate assistance, call our consultation line.</p>
-                  <a href={HELPLINE_TEL} className="phone-link" onClick={(event) => { event.preventDefault(); openPhoneDialer(HELPLINE_TEL) }}>
-                    {HELPLINE_DISPLAY}
+                  <h3>General Office Contact</h3>
+                  <p>For general inquiries, call our consultation line during business hours.</p>
+                  <a href={OFFICE_TEL} className="phone-link" onClick={(event) => { event.preventDefault(); openPhoneDialer(OFFICE_TEL) }}>
+                    {OFFICE_DISPLAY}
                   </a>
                 </div>
               </div>
@@ -136,12 +135,12 @@ export default function Contact() {
 
       <section className="section cta-band section-muted">
         <div className="container text-center">
-          <h2 className="section-title">Need Immediate Assistance?</h2>
+          <h2 className="section-title">Discuss Your Requirements</h2>
           <p className="section-subtitle" style={{ margin: '0 auto 32px' }}>
-            Our consultants are available to help you resolve critical issues right now.
+            Our consultants can review your technology requirements and provide clear recommendations.
           </p>
-          <a href={HELPLINE_TEL} className="btn btn-primary" onClick={(event) => { event.preventDefault(); openPhoneDialer(HELPLINE_TEL) }}>
-            <PhoneIcon width={18} height={18} /> Call Now
+          <a href={OFFICE_TEL} className="btn btn-primary" onClick={(event) => { event.preventDefault(); openPhoneDialer(OFFICE_TEL) }}>
+            <PhoneIcon width={18} height={18} /> Contact Office
           </a>
         </div>
       </section>

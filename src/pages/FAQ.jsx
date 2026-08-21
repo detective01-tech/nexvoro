@@ -8,7 +8,7 @@ const CATEGORIES = [
   {
     title: 'SIM & Network',
     items: [
-      { q: 'How do I activate my new SIM card?', a: 'Insert the SIM, then call our helpline and an advisor will walk you through activation with your carrier in a few minutes.' },
+      { q: 'How do I activate my new SIM card?', a: 'Insert the SIM, then contact our office to discuss activation steps and network onboarding guidance.' },
       { q: 'Why is my data speed slow?', a: 'Slow data is usually caused by network congestion, a distant tower, or an outdated APN setting — we can check all three with you.' },
       { q: 'Does my plan include 5G?', a: '5G eligibility depends on your device and your carrier plan. Tell us your phone model and we’ll confirm eligibility.' },
     ],

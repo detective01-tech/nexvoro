@@ -1,7 +1,7 @@
 export const PHONE_DISPLAY = '877 627 8313'
 export const PHONE_TEL = 'tel:+18776278313'
-export const HELPLINE_DISPLAY = PHONE_DISPLAY
-export const HELPLINE_TEL = PHONE_TEL
+export const OFFICE_DISPLAY = PHONE_DISPLAY
+export const OFFICE_TEL = PHONE_TEL
 
 export const openPhoneDialer = (tel) => {
   if (typeof window === 'undefined') {

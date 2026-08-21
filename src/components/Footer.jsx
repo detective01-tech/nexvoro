@@ -26,10 +26,7 @@ export default function Footer({ showDisclaimer = false }) {
 
         {showDisclaimer && (
           <div className="footer-notice">
-            <strong style={{ color: '#e2e8f0' }}>Important Notice:</strong> Hi Tech Global Solutions operates
-            as a dedicated technology consulting and advisory service. All trademarks, service marks, and company names are the property of their respective owners. Our role is to offer general
-            advisory services, configuration advice, and guidance to consumers. We aim to help you optimize setups independently or guide you toward
-            the appropriate resources based on your needs.
+            <strong style={{ color: '#e2e8f0' }}>Disclaimer:</strong> Hi Tech Global Solutions is an independent technology consulting firm. We provide general advisory and technical support services. We are not affiliated with, authorized by, or sponsored by any specific telecommunications carrier, internet service provider, or hardware manufacturer.
           </div>
         )}
 

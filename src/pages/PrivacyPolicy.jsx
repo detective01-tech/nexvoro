@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
             <h2>1. Introduction &amp; General Information</h2>
             <p>
               At Hi Tech Global Solutions (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;), we treat your privacy and transparency with the highest priority. 
-              This Privacy Policy details how we collect, use, store, protect, and share your personal data when you access our website, use our tech advisory services, or interact with our Canadian helpline.
+              This Privacy Policy details how we collect, use, store, protect, and share your personal data when you access our website, use our tech advisory services, or contact our office.
             </p>
             <p>
               By accessing or using our services, you consent to the data practices described in this Privacy Policy in compliance with Canada's Personal Information Protection and Electronic Documents Act (PIPEDA) and applicable provincial privacy legislation.
@@ -39,7 +39,7 @@ export default function PrivacyPolicy() {
             <p>Collected information is strictly used for legitimate business and technology consulting purposes:</p>
             <ul>
               <li>To provide, operate, and maintain independent mobile and internet advisory services.</li>
-              <li>To connect you with qualified Canadian technical specialists when you call our helpline.</li>
+              <li>To connect you with qualified Canadian technical specialists when you contact our office.</li>
               <li>To evaluate website usability, detect security vulnerabilities, and enhance site speed and functionality.</li>
               <li>To respond promptly to customer service requests, inquiries, and feedback.</li>
               <li>To comply with regulatory, tax, and legal requirements.</li>
@@ -100,7 +100,7 @@ export default function PrivacyPolicy() {
             <p style={{ marginTop: 10 }}>
               <strong>Hi Tech Global Solutions Privacy Office</strong><br />
               Email: privacy@hitechsolutions-support.ca<br />
-              Toll-Free Helpline: 877 627 8313<br />
+              Office Line: 877 627 8313<br />
               Location: Canada
             </p>
           </div>
