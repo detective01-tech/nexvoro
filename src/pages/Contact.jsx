@@ -9,9 +9,6 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault()
-    if (window.gtag_report_conversion) {
-      window.gtag_report_conversion()
-    }
     setSubmitted(true)
   }
 
