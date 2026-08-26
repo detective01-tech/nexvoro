@@ -14,62 +14,62 @@ const TRUST_ITEMS = [
 
 const SERVICES = [
   {
-    title: 'Device & Network Setup',
-    desc: 'Guidance on hardware configuration, APN settings, and network onboarding for mobile devices and connected equipment.',
-    link: 'Discuss setup needs',
+    title: 'SIM Card Issues',
+    desc: "SIM not working? Card not recognized? We'll walk you through SIM activation, replacement requests, and troubleshooting step by step.",
+    link: 'Call for SIM help',
   },
   {
-    title: 'Network Configuration',
-    desc: 'Advisory on connection settings, device configuration, and practical steps for improving your network experience.',
-    link: 'Review network needs',
+    title: 'Network & Signal Problems',
+    desc: 'No signal, slow data, or dropped calls? Our team can diagnose network outages and signal issues and advise on the best next steps.',
+    link: 'Fix network issues',
   },
   {
-    title: 'Plan & Tariff Advisory',
-    desc: 'Independent evaluation of mobile and data plans to help optimize your monthly technology costs and usage choices.',
-    link: 'Review plan options',
+    title: 'Billing & Account Queries',
+    desc: "Unexpected charges, billing errors, or account access problems? We'll help you understand your bills and guide you through disputes.",
+    link: 'Billing help',
   },
   {
-    title: 'Plan Optimization',
-    desc: 'Seeking better value? We offer independent advice on the latest mobile tariffs and data plans tailored to your usage habits.',
-    link: 'Explore plans',
+    title: 'Upgrades & New Plans',
+    desc: 'Looking for a better deal? We provide impartial advice on the best mobile and SIM-only plans available for your needs and budget.',
+    link: 'Plan advice',
   },
   {
-    title: 'Home & Office Network Planning',
-    desc: 'Advisory on Wi-Fi coverage optimization, router placement, and network security for home and office environments.',
-    link: 'Plan your network',
+    title: 'Broadband & Internet Support',
+    desc: 'Slow internet, router issues, or broadband faults? Our advisors can help diagnose your home internet problems and suggest solutions.',
+    link: 'Broadband help',
   },
   {
-    title: 'Technology Migration Services',
-    desc: 'Assistance with device data transfers, software updates, and migration planning when changing technology setups.',
-    link: 'Plan a migration',
+    title: 'Number Porting & Transfers',
+    desc: "Want to keep your number when switching providers? We'll guide you through the PAC code process and make switching hassle-free.",
+    link: 'Port your number',
   },
   {
-    title: 'New Device Setup',
-    desc: 'Just got a new smartphone? Let us help you configure APN settings, transfer data, and set up voicemail quickly and easily.',
-    link: 'Setup assistance',
+    title: 'Device Setup & Configuration',
+    desc: 'New phone or device not set up correctly? We help with APN settings, data configuration, voicemail setup and more.',
+    link: 'Setup help',
   },
   {
-    title: 'Technology Security Guidance',
-    desc: 'General guidance on account protection, device security, and appropriate next steps when a device or account needs attention.',
-    link: 'Discuss security needs',
+    title: 'Lost, Stolen & Blocked Phones',
+    desc: "Phone lost or stolen? We'll advise you on what steps to take, including how to bar your device and protect your account.",
+    link: 'Get urgent help',
   },
 ]
 
 const STEPS = [
   {
     number: '1',
-    title: 'Schedule a Consultation',
-    desc: `Call our main office line at ${PHONE_DISPLAY} or send an online inquiry to discuss your technology requirements.`,
+    title: 'Call Our Free Number',
+    desc: `Dial ${PHONE_DISPLAY} — it's completely free from any Canada landline or mobile. No automated menus.`,
   },
   {
     number: '2',
-    title: 'Consult a Specialist',
-    desc: 'Speak with an IT specialist to review your technology requirements, setup questions, or planning needs.',
+    title: 'Speak to an Expert',
+    desc: 'A friendly, knowledgeable advisor will listen to your issue and ask a few simple questions to understand your situation.',
   },
   {
     number: '3',
-    title: 'Receive Recommendations',
-    desc: 'Get clear, actionable steps and expert advisory tailored to the technical challenges you describe.',
+    title: 'Problem Solved',
+    desc: "We'll walk you through the solution step by step — most issues are resolved in a single call.",
   },
 ]
 
@@ -90,18 +90,18 @@ export default function Home() {
             }}
           >
             <span className="hero-badge-dot" aria-hidden="true" />
-            Consultation By Appointment
+            Live Consultation Avalible
           </a>
-          <h1>Professional Technology &amp; Network Advisory Services</h1>
+          <h1>Canada Mobile & Internet<br/>Support You Can Trust</h1>
           <p>
-            We provide independent consulting, device setup guidance, and IT optimization for
-            Canadian individuals and small businesses.
+            Having trouble with your mobile, SIM card, or broadband?<br/>
+            Our independent Canada experts are ready to help fast, friendly, and stress-free.
           </p>
           <a href={PHONE_TEL} className="btn btn-primary" onClick={(event) => { event.preventDefault(); openPhoneDialer(PHONE_TEL) }}>
             <PhoneIcon width={18} height={18} /> General Inquiries: {PHONE_DISPLAY}
           </a>
           <p className="hero-fineprint">
-            This is an independent advisory service. We may earn commission from partners.
+            This is an independent advisory service. We may earn commission from partners Free from all Canada landlines and mobiles..
           </p>
         </div>
       </section>
@@ -119,10 +119,10 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Advisory Services</h2>
+            <h2 className="section-title">What Can We Help You With?</h2>
             <p className="section-subtitle">
-              Our independent consultants provide practical guidance for device setup, network
-              planning, plan evaluation, and technology migration.
+              Our expert advisors handle all types of mobile and internet queries — whatever the
+issue, we’ve got you covered.
             </p>
           </div>
 
@@ -142,9 +142,9 @@ export default function Home() {
 
       <section className="section steps-section section-muted">
         <div className="container">
-          <h2 className="section-title">How It Works</h2>
+          <h2 className="section-title">Get Help in 3 Simple Steps</h2>
           <p className="section-subtitle" style={{ margin: '0 auto 48px' }}>
-            A straightforward consultation process for individuals and small businesses.
+            No long waits, no complicated processes. Just fast, friendly support when you need it most.
           </p>
 
           <div className="grid grid-3">

@@ -23,13 +23,11 @@ export default function Header({ variant = 'inner' }) {
           <div className="container">
             <div className="topbar-left">
               <div className="topbar-text">
-                <span className="topbar-phone">Contact Office: <a href={PHONE_TEL}>{PHONE_DISPLAY}</a></span>
-                <span className="topbar-tagline">Independent Technology Consulting</span>
+                <span className="topbar-phone">Free Helpline: <a href={PHONE_TEL}>{PHONE_DISPLAY}</a></span>
+                <span className="topbar-tagline">Canada Mobile & Internet Support</span>
+                <span>Call Now — No Wait</span>
               </div>
             </div>
-            <a href={PHONE_TEL} className="topbar-cta" onClick={handleCallClick}>
-              General Inquiries
-            </a>
           </div>
         </div>
         <header className={`site-header ${scrolled ? 'site-header--scrolled' : ''}`}>
@@ -40,7 +38,7 @@ export default function Header({ variant = 'inner' }) {
             </Link>
             <div className="header-actions">
               <a href={PHONE_TEL} className="btn btn-primary" onClick={handleCallClick}>
-                OFFICE LINE
+                Call Now 
               </a>
             </div>
           </div>
@@ -58,9 +56,6 @@ export default function Header({ variant = 'inner' }) {
         </Link>
         <div className="header-actions">
           <a href={PHONE_TEL} className="btn btn-outline-navy btn-sm" onClick={handleCallClick}>
-            Office Line
-          </a>
-          <a href={PHONE_TEL} className="btn btn-primary btn-sm" onClick={handleCallClick}>
             Call Now
           </a>
         </div>

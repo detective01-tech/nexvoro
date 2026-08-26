@@ -26,11 +26,11 @@ export default function Footer({ showDisclaimer = false }) {
 
         {showDisclaimer && (
           <div className="footer-notice">
-            <strong style={{ color: '#e2e8f0' }}>Disclaimer:</strong> Hi Tech Global Solutions is an independent technology consulting firm. We provide general advisory and technical support services. We are not affiliated with, authorized by, or sponsored by any specific telecommunications carrier, internet service provider, or hardware manufacturer.
+            <strong style={{ color: '#e2e8f0' }}>Important Disclaimer</strong> Compare Before You Buy is a completely independent third-party mobile and internet support service. We are not affiliated with, endorsed by, or connected to Virgin Mobile, Cogeco Windsor, Telus Home Services, Public Mobile Canada, Virgin Plus, Bell Fibe TV, or any other network provider. We provide general mobile and internet support guidance for customers on any Canada network. We can advise you on how to resolve issues and direct you to the right resources, regardless of which network or broadband provider you use.
           </div>
         )}
 
-        <div className="footer-bottom">© 2024 Hi Tech Global Solutions. All rights reserved. Professional Canadian Tech Consulting.</div>
+        <div className="footer-bottom">© 2024 Hi Tech Global Solutions. </div>
       </div>
     </footer>
   )
