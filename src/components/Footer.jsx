@@ -9,7 +9,7 @@ export default function Footer({ showDisclaimer = false }) {
       <div className="container">
         <div className="footer-top">
           <div>
-            <div className="footer-brand">Hi Tech Global Solutions</div>
+            <div className="footer-brand">Nexvoro High Tech Limited</div>
           </div>
           <nav className="footer-nav">
             {NAV_LINKS.map((link) => (
@@ -30,7 +30,7 @@ export default function Footer({ showDisclaimer = false }) {
           </div>
         )}
 
-        <div className="footer-bottom">© 2024 Hi Tech Global Solutions. </div>
+        <div className="footer-bottom">© 2024 Nexvoro High Tech Limited. </div>
       </div>
     </footer>
   )

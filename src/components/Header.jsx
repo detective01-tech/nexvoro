@@ -33,8 +33,8 @@ export default function Header({ variant = 'inner' }) {
         <header className={`site-header ${scrolled ? 'site-header--scrolled' : ''}`}>
           <div className="container">
             <Link to="/" className="logo-stacked">
-              Hi Tech
-              <span>Global Solution</span>
+              Nexvoro High Tech
+              <span>Limited</span>
             </Link>
             <div className="header-actions">
               <a href={PHONE_TEL} className="btn btn-primary" onClick={handleCallClick}>
@@ -51,8 +51,8 @@ export default function Header({ variant = 'inner' }) {
     <header className={`site-header ${scrolled ? 'site-header--scrolled' : ''}`}>
       <div className="container">
         <Link to="/" className="logo-stacked">
-          Hi Tech
-          <span>Global Solution</span>
+          Nexvoro High Tech
+          <span>Limited</span>
         </Link>
         <div className="header-actions">
           <a href={PHONE_TEL} className="btn btn-outline-navy btn-sm" onClick={handleCallClick}>

@@ -1,6 +1,6 @@
-# Hi Tech Global Solutions — React Site
+# Nexvoro High Tech Limited — React Site
 
-A responsive, multi-page React rebuild of the Hi Tech Global Solutions site (Home, About, Contact, FAQ,
+A responsive, multi-page React rebuild of the Nexvoro High Tech Limited site (Home, About, Contact, FAQ,
 Privacy Policy, Terms of Service), built with Vite + React Router. Colors, type scale, radii, and
 spacing come from `DESIGN.md`.
 

@@ -32,7 +32,7 @@ export default function Contact() {
 
             {submitted ? (
               <p style={{ color: 'var(--color-text-muted)' }}>
-                Thanks — your message has been received. A Hi Tech Global Solutions advisor will get back to
+                Thanks — your message has been received. A Nexvoro High Tech Limited advisor will get back to
                 you shortly.
               </p>
             ) : (

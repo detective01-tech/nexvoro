@@ -10,12 +10,12 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          By accessing and using the services provided by Hi Tech Global Solutions (&ldquo;we,&rdquo;
+          By accessing and using the services provided by Nexvoro High Tech Limited (&ldquo;we,&rdquo;
           &ldquo;us,&rdquo; or &ldquo;our&rdquo;), you agree to be bound by these Terms of
           Service. If you do not agree to these terms, please do not use our services.
         </p>
         <p>
-          These terms apply to all users of our professional technology consulting services, whether
+          These terms apply to all users of our independent mobile and internet support services, whether
           accessed via our website, over the phone, or in person at our Canadian store
           locations.
         </p>
@@ -29,9 +29,8 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          Hi Tech Global Solutions provides professional Canadian technology consulting services, including but not
-          limited to hardware advice, software configuration, network optimization, and data
-          security guidance.
+          Nexvoro High Tech Limited provides independent Canadian mobile and internet support services, including but not
+          limited to SIM card troubleshooting, network and signal diagnostics, billing guidance, plan upgrades, broadband support, number porting, and device configuration.
         </p>
         <p>
           We reserve the right to modify, suspend, or discontinue any part of our services at any
@@ -49,13 +48,13 @@ const SECTIONS = [
       <>
         <p>As a user of our services, you agree to:</p>
         <ul>
-          <li>Provide accurate and complete information when requesting consulting.</li>
+          <li>Provide accurate and complete information when requesting support.</li>
           <li>Back up all data before submitting a device for inspection or service.</li>
           <li>Ensure you have the legal right to authorize adjustments or modifications to the devices you submit.</li>
           <li>Treat our staff and consultants with respect.</li>
         </ul>
         <div className="tos-callout">
-          <strong>Important Note:</strong> Hi Tech Global Solutions is not responsible for data loss. Data
+          <strong>Important Note:</strong> Nexvoro High Tech Limited is not responsible for data loss. Data
           backup is strictly the responsibility of the user.
         </div>
       </>
@@ -68,7 +67,7 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          To the fullest extent permitted by applicable Canadian law, Hi Tech Global Solutions shall not be
+          To the fullest extent permitted by applicable Canadian law, Nexvoro High Tech Limited shall not be
           liable for any indirect, incidental, special, consequential, or punitive damages,
           including but not limited to loss of profits, data, use, or goodwill, arising out of or
           in connection with our services.
@@ -131,7 +130,7 @@ export default function TermsOfService() {
         <div className="container">
           <h1>Terms of Service</h1>
           <p>
-            Please read these terms carefully before using our professional technology consulting
+            Please read these terms carefully before using our independent mobile and internet support
             services. Last updated: October 2023.
           </p>
         </div>

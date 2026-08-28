@@ -1,5 +1,5 @@
 ---
-name: Hi Tech Global Solutions Systems
+name: Nexvoro High Tech Limited Systems
 colors:
   surface: '#f7f9fb'
   surface-dim: '#d8dadc'
