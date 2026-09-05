@@ -3,13 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://detective01-tech.github.io/",
+  "homepage": "https://tarifino.tech/",
   "scripts": {
     "dev": "vite",
     "build": "node node_modules/vite/bin/vite.js build && node scripts/prepare-pages.mjs",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/detective01-tech/detective01-tech.github.io.git"
+    "deploy": "gh-pages -d dist -r https://github.com/detective01-tech/detective01-tech.github.io.git --cname tarifino.tech"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
