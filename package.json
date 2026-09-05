@@ -3,13 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://detective01-tech.github.io/nexvoro/",
+  "homepage": "https://detective01-tech.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "node node_modules/vite/bin/vite.js build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/detective01-tech/detective01-tech.github.io.git"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
