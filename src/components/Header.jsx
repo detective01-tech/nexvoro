@@ -33,7 +33,7 @@ export default function Header({ variant = 'inner' }) {
         <header className={`site-header ${scrolled ? 'site-header--scrolled' : ''}`}>
           <div className="container">
             <Link to="/" className="logo-stacked">
-              Nexvoro
+              Tarifino
               <span>High Tech Limited</span>
             </Link>
             <div className="header-actions">
@@ -51,7 +51,7 @@ export default function Header({ variant = 'inner' }) {
     <header className={`site-header ${scrolled ? 'site-header--scrolled' : ''}`}>
       <div className="container">
         <Link to="/" className="logo-stacked">
-          Nexvoro
+          Tarifino
           <span>High Tech Limited</span>
         </Link>
         <div className="header-actions">

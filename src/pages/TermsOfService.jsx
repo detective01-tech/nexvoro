@@ -10,7 +10,7 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          By accessing and using the services provided by Nexvoro High Tech Limited (&ldquo;we,&rdquo;
+          By accessing and using the services provided by Tarifino High Tech Limited (&ldquo;we,&rdquo;
           &ldquo;us,&rdquo; or &ldquo;our&rdquo;), you agree to be bound by these Terms of
           Service. If you do not agree to these terms, please do not use our services.
         </p>
@@ -28,7 +28,7 @@ const SECTIONS = [
     body: (
       <>
         <p>
-            Nexvoro High Tech Limited provides independent Canadian mobile and internet plan information and referral
+            Tarifino High Tech Limited provides independent Canadian mobile and internet plan information and referral
             services, including comparisons of mobile, SIM-only, broadband, family, business, and switching options.
         </p>
         <p>
@@ -53,7 +53,7 @@ const SECTIONS = [
           <li>Treat our staff and consultants with respect.</li>
         </ul>
         <div className="tos-callout">
-          <strong>Important Note:</strong> Nexvoro High Tech Limited does not operate the provider services
+          <strong>Important Note:</strong> Tarifino High Tech Limited does not operate the provider services
           introduced through referrals. The provider is responsible for its own service, pricing, and terms.
         </div>
       </>
@@ -66,7 +66,7 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          To the fullest extent permitted by applicable Canadian law, Nexvoro High Tech Limited shall not be
+          To the fullest extent permitted by applicable Canadian law, Tarifino High Tech Limited shall not be
           liable for any indirect, incidental, special, consequential, or punitive damages,
           including but not limited to loss of profits, data, use, or goodwill, arising out of or
           in connection with our services.

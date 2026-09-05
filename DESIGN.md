@@ -1,5 +1,5 @@
 ---
-name: Nexvoro High Tech Limited Systems
+name: Tarifino High Tech Limited Systems
 colors:
   surface: '#f7f9fb'
   surface-dim: '#d8dadc'

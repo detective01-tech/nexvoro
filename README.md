@@ -1,6 +1,6 @@
-# Nexvoro High Tech Limited — React Site
+# Tarifino High Tech Limited — React Site
 
-A responsive, multi-page React rebuild of the Nexvoro High Tech Limited site (Home, About, Contact, FAQ,
+A responsive, multi-page React site for Tarifino High Tech Limited (Home, About, Contact, FAQ,
 Privacy Policy, Terms of Service), built with Vite + React Router. Colors, type scale, radii, and
 spacing come from `DESIGN.md`.
 

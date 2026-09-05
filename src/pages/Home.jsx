@@ -95,13 +95,13 @@ export default function Home() {
           <h1>Compare Canadian Mobile & Internet Plans</h1>
           <p>
             Understand your options for mobile, SIM-only, and home internet plans.<br/>
-            Nexvoro provides independent information and partner referrals for Canadian customers.
+            Tarifino provides independent information and partner referrals for Canadian customers.
           </p>
           <a href={PHONE_TEL} className="btn btn-primary" onClick={(event) => { event.preventDefault(); openPhoneDialer(PHONE_TEL) }}>
             <PhoneIcon width={18} height={18} /> General Inquiries: {PHONE_DISPLAY}
           </a>
           <p className="hero-fineprint">
-            Nexvoro is independent and is not a network provider. We may receive commission from partners when you choose a referred plan or service. Any relevant relationship will be disclosed before a referral.
+            Tarifino is independent and is not a network provider. We may receive commission from partners when you choose a referred plan or service. Any relevant relationship will be disclosed before a referral.
           </p>
         </div>
       </section>

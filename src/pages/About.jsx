@@ -49,7 +49,7 @@ export default function About() {
           </div>
           <img
             src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop"
-            alt="Nexvoro High Tech Limited team collaborating around a whiteboard"
+            alt="Tarifino High Tech Limited team collaborating around a whiteboard"
           />
         </div>
       </section>
@@ -61,7 +61,7 @@ export default function About() {
           </div>
           <h2 className="section-title">Our Mission</h2>
             <p className="section-subtitle" style={{ maxWidth: 640, margin: '0 auto' }}>
-            At Nexvoro High Tech Limited, our goal is to make Canadian mobile and internet plan
+            At Tarifino High Tech Limited, our goal is to make Canadian mobile and internet plan
             information easier to understand. We help people compare options, identify useful
             questions, and decide whether to explore a partner referral.
           </p>
@@ -99,17 +99,17 @@ export default function About() {
               Our Story
             </h2>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: 16, lineHeight: 1.7 }}>
-                Nexvoro High Tech Limited provides independent mobile and internet plan information
+                Tarifino High Tech Limited provides independent mobile and internet plan information
                 for Canadians who need help understanding their options or deciding what to explore.
             </p>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: 16, lineHeight: 1.7 }}>
                 We explain common mobile, SIM-only, broadband, and plan comparison questions in plain language.
-                When a partner referral is relevant, we disclose that Nexvoro may receive commission
+                When a partner referral is relevant, we disclose that Tarifino may receive commission
                 if you choose the referred service.
             </p>
             <p style={{ color: 'var(--color-text-muted)', lineHeight: 1.7 }}>
               We aim to provide clear information with the approachability of a helpful neighbor.
-              Nexvoro High Tech Limited is an independent advisory service.
+              Tarifino High Tech Limited is an independent advisory service.
             </p>
           </div>
         </div>

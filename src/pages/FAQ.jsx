@@ -17,7 +17,7 @@ const CATEGORIES = [
     title: 'Plan Pricing',
     items: [
       { q: 'What costs should I check before choosing a plan?', a: 'Review the recurring monthly price, taxes, activation charges, equipment costs, early cancellation terms, and any promotional expiry date.' },
-      { q: 'Are partner referrals free?', a: 'Nexvoro does not charge a separate referral fee unless clearly stated. We may receive commission from a partner if you choose an introduced plan or service.' },
+      { q: 'Are partner referrals free?', a: 'Tarifino does not charge a separate referral fee unless clearly stated. We may receive commission from a partner if you choose an introduced plan or service.' },
       { q: 'Are advertised prices guaranteed?', a: 'Prices, availability, and eligibility are set by each provider and can change. Confirm the final offer and terms directly before purchasing.' },
     ],
   },
@@ -26,7 +26,7 @@ const CATEGORIES = [
     items: [
       { q: 'What should I compare in a home internet plan?', a: 'Compare advertised speed, data limits, installation costs, equipment fees, contract terms, and availability at your address.' },
       { q: 'Can I compare broadband providers?', a: 'Yes. We can explain common plan features and connect you with a partner when you choose to explore a referral.' },
-      { q: 'Does Nexvoro install internet service?', a: 'No. Nexvoro provides plan information and referrals. The selected provider is responsible for installation and service delivery.' },
+      { q: 'Does Tarifino install internet service?', a: 'No. Tarifino provides plan information and referrals. The selected provider is responsible for installation and service delivery.' },
     ],
   },
   {
@@ -34,7 +34,7 @@ const CATEGORIES = [
     items: [
       { q: 'What should I consider before switching providers?', a: 'Check contract end dates, cancellation terms, number transfer requirements, equipment returns, installation timing, and the final monthly price.' },
       { q: 'Can I keep my phone number?', a: 'Number-transfer eligibility and steps depend on the provider and plan. Confirm the process with the provider before cancelling your current service.' },
-      { q: 'Does Nexvoro cancel my current service?', a: 'No. We provide information and optional referrals. You remain responsible for confirming and completing any provider changes.' },
+      { q: 'Does Tarifino cancel my current service?', a: 'No. We provide information and optional referrals. You remain responsible for confirming and completing any provider changes.' },
     ],
   },
 ]

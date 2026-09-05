@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
           <div className="legal-card">
             <h2>1. Introduction &amp; General Information</h2>
             <p>
-              At Nexvoro High Tech Limited (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;), we treat your privacy and transparency with the highest priority. 
+              At Tarifino High Tech Limited (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;), we treat your privacy and transparency with the highest priority.
               This Privacy Policy details how we collect, use, store, protect, and share your personal data when you access our website, review mobile and internet plan information, request a partner referral, or contact our office.
             </p>
             <p>
@@ -63,7 +63,7 @@ export default function PrivacyPolicy() {
 
             <h2>5. Dedicated Service &amp; Commission Disclosure</h2>
             <p>
-              Nexvoro High Tech Limited provides independent mobile and internet plan information and referrals. We do not represent network providers or official technical-support departments. All trademarks and brand names belong to their respective owners. We may receive compensation or affiliate commission from a service partner if you choose to explore or purchase a plan or service introduced during a consultation. Relevant partner relationships will be disclosed before a referral.
+              Tarifino High Tech Limited provides independent mobile and internet plan information and referrals. We do not represent network providers or official technical-support departments. All trademarks and brand names belong to their respective owners. We may receive compensation or affiliate commission from a service partner if you choose to explore or purchase a plan or service introduced during a consultation. Relevant partner relationships will be disclosed before a referral.
             </p>
 
             <h2>6. Cookies &amp; Tracking Technologies</h2>
@@ -98,8 +98,8 @@ export default function PrivacyPolicy() {
               If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact our privacy representative:
             </p>
             <p style={{ marginTop: 10 }}>
-              <strong>Nexvoro High Tech Limited Privacy Office</strong><br />
-              Email: privacy@nexvoro.ca<br />
+                <strong>Tarifino High Tech Limited Privacy Office</strong><br />
+              Email: privacy@tarifino.ca<br />
               Office Line: 877 627 8313<br />
               Location: Canada
             </p>
