@@ -15,17 +15,17 @@ export default function PrivacyPolicy() {
             <h2>1. Introduction &amp; General Information</h2>
             <p>
               At Nexvoro High Tech Limited (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;), we treat your privacy and transparency with the highest priority. 
-              This Privacy Policy details how we collect, use, store, protect, and share your personal data when you access our website, use our mobile, broadband, and tech advisory services, or contact our office.
+              This Privacy Policy details how we collect, use, store, protect, and share your personal data when you access our website, review mobile and internet plan information, request a partner referral, or contact our office.
             </p>
             <p>
               By accessing or using our services, you consent to the data practices described in this Privacy Policy in compliance with Canada's Personal Information Protection and Electronic Documents Act (PIPEDA) and applicable provincial privacy legislation.
             </p>
 
             <h2>2. Information We Collect</h2>
-            <p>We collect information to deliver responsive technical assistance and optimize user experiences:</p>
+            <p>We collect information to provide plan information, respond to inquiries, and improve user experiences:</p>
             <ul>
               <li>
-                <strong>Personal Identification Information:</strong> Voluntarily provided details such as your full name, phone number, email address, and postal code when you request mobile and internet support or contact our advisory team.
+                <strong>Personal Identification Information:</strong> Voluntarily provided details such as your full name, phone number, email address, and postal code when you request plan information, a partner referral, or contact our advisory team.
               </li>
               <li>
                 <strong>Technical &amp; Usage Diagnostics:</strong> Automatically collected information including your Internet Protocol (IP) address, browser type and version, device identifier, time zone, referral links, and page visit duration.
@@ -36,10 +36,10 @@ export default function PrivacyPolicy() {
             </ul>
 
             <h2>3. How We Use Your Data</h2>
-            <p>Collected information is strictly used for legitimate business and mobile and internet support purposes:</p>
+            <p>Collected information is used for legitimate plan information and referral purposes:</p>
             <ul>
-              <li>To provide, operate, and maintain independent mobile and internet advisory services.</li>
-              <li>To connect you with qualified Canadian mobile and broadband specialists when you contact our office.</li>
+              <li>To provide independent mobile and internet plan information.</li>
+              <li>To connect you with a partner when you request or choose to explore a referral.</li>
               <li>To evaluate website usability, detect security vulnerabilities, and enhance site speed and functionality.</li>
               <li>To respond promptly to customer service requests, inquiries, and feedback.</li>
               <li>To comply with regulatory, tax, and legal requirements.</li>
@@ -63,7 +63,7 @@ export default function PrivacyPolicy() {
 
             <h2>5. Dedicated Service &amp; Commission Disclosure</h2>
             <p>
-              Nexvoro High Tech Limited operates strictly as a dedicated provider of independent mobile and internet support, including SIM card assistance, network troubleshooting, billing guidance, device configuration, and broadband advisory. All trademarks and brand names belong to their respective owners. In certain instances, we may receive compensation or affiliate commission from service partners if you choose to explore service plans or offerings recommended during consultations.
+              Nexvoro High Tech Limited provides independent mobile and internet plan information and referrals. We do not represent network providers or official technical-support departments. All trademarks and brand names belong to their respective owners. We may receive compensation or affiliate commission from a service partner if you choose to explore or purchase a plan or service introduced during a consultation. Relevant partner relationships will be disclosed before a referral.
             </p>
 
             <h2>6. Cookies &amp; Tracking Technologies</h2>

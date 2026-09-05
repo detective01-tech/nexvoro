@@ -31,7 +31,7 @@ export default function Contact() {
         <div className="container">
           <h1>How Can We Help You Today?</h1>
           <p>
-            Our Canadian technology consulting team can discuss your setup, planning, and advisory needs.
+            Our Canadian plan information team can discuss mobile, SIM-only, and internet plan options.
           </p>
         </div>
       </section>
@@ -64,22 +64,23 @@ export default function Contact() {
                     <input id="phone" type="tel" placeholder="(555) 123-4567" />
                   </div>
                   <div className="field">
-                    <label htmlFor="issue">Issue Type</label>
+                    <label htmlFor="issue">Plan Topic</label>
                     <select id="issue" defaultValue="">
                       <option value="" disabled>
                         Select an option
                       </option>
-                      <option>Device &amp; Network Setup</option>
-                      <option>Plan &amp; Tariff Advisory</option>
-                      <option>Devices</option>
-                      <option>Account Security</option>
-                      <option>Other</option>
+                      <option>Mobile plan comparison</option>
+                      <option>SIM-only plan options</option>
+                      <option>Home internet plan options</option>
+                      <option>Switching provider</option>
+                      <option>Partner referral</option>
+                      <option>Other plan question</option>
                     </select>
                   </div>
                 </div>
                 <div className="field">
                   <label htmlFor="message">How can we help?</label>
-                  <textarea id="message" placeholder="Please describe your issue in detail..." required />
+                  <textarea id="message" placeholder="Tell us about your usage, budget, and plan preferences..." required />
                 </div>
                 <button type="submit" className="btn btn-primary">
                   Send Message <SendIcon width={16} height={16} />

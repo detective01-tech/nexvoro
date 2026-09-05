@@ -11,7 +11,7 @@ const VALUES = [
   {
     icon: <UsersIcon width={18} height={18} />,
     title: 'Expertise',
-    desc: 'Highly trained professionals bringing deep technical knowledge to solve complex challenges.',
+    desc: 'Clear explanations that help people compare plan features and make informed choices.',
   },
   {
     icon: <AccessibilityIcon width={18} height={18} />,
@@ -60,11 +60,10 @@ export default function About() {
             <ShieldIcon width={20} height={20} />
           </div>
           <h2 className="section-title">Our Mission</h2>
-          <p className="section-subtitle" style={{ maxWidth: 640, margin: '0 auto' }}>
-            At Nexvoro High Tech Limited, our goal is simple: to demystify technology and make it work
-            seamlessly for every Canadian. We believe that robust IT consulting shouldn’t be a
-            luxury, but a reliable utility that empowers businesses and individuals to thrive in a
-            digital world without frustration.
+            <p className="section-subtitle" style={{ maxWidth: 640, margin: '0 auto' }}>
+            At Nexvoro High Tech Limited, our goal is to make Canadian mobile and internet plan
+            information easier to understand. We help people compare options, identify useful
+            questions, and decide whether to explore a partner referral.
           </p>
         </div>
       </section>
@@ -74,7 +73,7 @@ export default function About() {
           <div className="section-header">
             <h2 className="section-title">Our Core Values</h2>
             <p className="section-subtitle">
-              The principles that guide our everyday interactions and technical solutions.
+              The principles that guide our plan information and referral service.
             </p>
           </div>
           <div className="grid grid-4">
@@ -100,11 +99,11 @@ export default function About() {
               Our Story
             </h2>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: 16, lineHeight: 1.7 }}>
-                Nexvoro High Tech Limited provides independent mobile and internet guidance for
-                Canadians who need help understanding their options or deciding what to do next.
+                Nexvoro High Tech Limited provides independent mobile and internet plan information
+                for Canadians who need help understanding their options or deciding what to explore.
             </p>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: 16, lineHeight: 1.7 }}>
-                We explain common account, device, connectivity, and plan questions in plain language.
+                We explain common mobile, SIM-only, broadband, and plan comparison questions in plain language.
                 When a partner referral is relevant, we disclose that Nexvoro may receive commission
                 if you choose the referred service.
             </p>

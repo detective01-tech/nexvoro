@@ -29,8 +29,8 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          Nexvoro High Tech Limited provides independent Canadian mobile and internet support services, including but not
-          limited to SIM card troubleshooting, network and signal diagnostics, billing guidance, plan upgrades, broadband support, number porting, and device configuration.
+            Nexvoro High Tech Limited provides independent Canadian mobile and internet plan information and referral
+            services, including comparisons of mobile, SIM-only, broadband, family, business, and switching options.
         </p>
         <p>
           We reserve the right to modify, suspend, or discontinue any part of our services at any

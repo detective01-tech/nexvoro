@@ -4,9 +4,9 @@ import { PhoneIcon, ArrowIcon } from '../components/Icons.jsx'
 import { PHONE_DISPLAY, PHONE_TEL, openPhoneDialer } from '../constants.js'
 
 const TRUST_ITEMS = [
-  'Canada-Based Consulting Team',
+  'Canadian Plan Information',
   'General Office Contact',
-  'Practical Recommendations',
+  'Practical Comparisons',
   'Clear, Practical Guidance',
   'Independent Advice',
   'Partner Relationships Disclosed',
@@ -14,44 +14,44 @@ const TRUST_ITEMS = [
 
 const SERVICES = [
   {
-    title: 'SIM Card Issues',
-    desc: "SIM not working? Card not recognized? We'll walk you through SIM activation, replacement requests, and troubleshooting step by step.",
-    link: 'Call for SIM help',
+    title: 'Mobile Plan Comparison',
+    desc: 'Review mobile plan types, data allowances, contract terms, and pricing considerations for your household or business.',
+    link: 'Compare mobile plans',
   },
   {
-    title: 'Network & Signal Problems',
-    desc: 'No signal, slow data, or dropped calls? Our team can diagnose network outages and signal issues and advise on the best next steps.',
-    link: 'Fix network issues',
+    title: 'SIM-Only Plan Options',
+    desc: 'Explore SIM-only options and understand the trade-offs between monthly plans, data allowances, and contract lengths.',
+    link: 'Explore SIM-only plans',
   },
   {
-    title: 'Billing & Account Queries',
-    desc: "Unexpected charges, billing errors, or account access problems? We'll help you understand your bills and guide you through disputes.",
-    link: 'Billing help',
+    title: 'Internet Plan Options',
+    desc: 'Compare home internet and broadband plan features, availability questions, speeds, and monthly pricing information.',
+    link: 'Compare internet plans',
   },
   {
-    title: 'Upgrades & New Plans',
-    desc: 'Looking for a better deal? We explain available mobile and SIM-only plan options for your needs and budget.',
-    link: 'Plan advice',
+    title: 'Plan Upgrades & Changes',
+    desc: 'Understand common upgrade paths, switching considerations, and questions to ask before choosing a new plan.',
+    link: 'Discuss plan options',
   },
   {
-    title: 'Broadband & Internet Support',
-    desc: 'Slow internet, router issues, or broadband faults? Our advisors can help diagnose your home internet problems and suggest solutions.',
-    link: 'Broadband help',
+    title: 'Family & Multi-Line Plans',
+    desc: 'Review the features and pricing factors that can matter when comparing mobile plans for more than one person.',
+    link: 'Review family plans',
   },
   {
-    title: 'Number Porting & Transfers',
-    desc: "Want to keep your number when switching providers? We'll guide you through the PAC code process and make switching hassle-free.",
-    link: 'Port your number',
+    title: 'Switching Provider Information',
+    desc: 'Learn about common steps, timing, and questions to consider when comparing a move to another mobile or internet provider.',
+    link: 'Discuss switching',
   },
   {
-    title: 'Device Setup & Configuration',
-    desc: 'New phone or device not set up correctly? We help with APN settings, data configuration, voicemail setup and more.',
-    link: 'Setup help',
+    title: 'Business Connectivity Options',
+    desc: 'Explore questions to ask when comparing mobile and internet plans for a small business or professional team.',
+    link: 'Review business plans',
   },
   {
-    title: 'Lost, Stolen & Blocked Phones',
-    desc: "Phone lost or stolen? We'll advise you on what steps to take, including how to bar your device and protect your account.",
-    link: 'Get urgent help',
+    title: 'Partner Offers & Referrals',
+    desc: 'When relevant, we can introduce partner services. We disclose partner relationships before you choose to continue.',
+    link: 'Ask about referrals',
   },
 ]
 
@@ -64,7 +64,7 @@ const STEPS = [
   {
     number: '2',
     title: 'Speak to an Expert',
-    desc: 'A friendly, knowledgeable advisor will listen to your issue and ask a few simple questions to understand your situation.',
+    desc: 'An advisor will ask a few questions about your usage, budget, and preferences.',
   },
   {
     number: '3',
@@ -92,10 +92,10 @@ export default function Home() {
             <span className="hero-badge-dot" aria-hidden="true" />
             Live Consultation Available
           </a>
-          <h1>Canada Mobile & Internet<br/>Support You Can Trust</h1>
+          <h1>Compare Canadian Mobile & Internet Plans</h1>
           <p>
-            Having trouble with your mobile, SIM card, or broadband?<br/>
-            Our independent Canada experts are ready to help fast, friendly, and stress-free.
+            Understand your options for mobile, SIM-only, and home internet plans.<br/>
+            Nexvoro provides independent information and partner referrals for Canadian customers.
           </p>
           <a href={PHONE_TEL} className="btn btn-primary" onClick={(event) => { event.preventDefault(); openPhoneDialer(PHONE_TEL) }}>
             <PhoneIcon width={18} height={18} /> General Inquiries: {PHONE_DISPLAY}
@@ -121,8 +121,8 @@ export default function Home() {
           <div className="section-header">
             <h2 className="section-title">What Can We Help You With?</h2>
             <p className="section-subtitle">
-              Our expert advisors handle all types of mobile and internet queries — whatever the
-issue, we’ve got you covered.
+              We explain plan features, pricing factors, and switching considerations so you can
+              decide which option to explore.
             </p>
           </div>
 
@@ -142,9 +142,9 @@ issue, we’ve got you covered.
 
       <section className="section steps-section section-muted">
         <div className="container">
-          <h2 className="section-title">Get Help in 3 Simple Steps</h2>
+          <h2 className="section-title">Explore Plans in 3 Simple Steps</h2>
           <p className="section-subtitle" style={{ margin: '0 auto 48px' }}>
-            No long waits, no complicated processes. Just fast, friendly support when you need it most.
+            Share your preferences, review relevant information, and choose your next step.
           </p>
 
           <div className="grid grid-3">
