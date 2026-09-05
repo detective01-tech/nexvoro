@@ -99,7 +99,7 @@ export default function PrivacyPolicy() {
             </p>
             <p style={{ marginTop: 10 }}>
                 <strong>Tarifino High Tech Limited Privacy Office</strong><br />
-              Email: privacy@tarifino.ca<br />
+              Email: privacy@tarifino.tech<br />
               Office Line: 877 627 8313<br />
               Location: Canada
             </p>

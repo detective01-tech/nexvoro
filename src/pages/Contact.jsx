@@ -19,7 +19,7 @@ export default function Contact() {
       '',
       String(formData.get('message')),
     ].join('\n')
-    window.location.href = `mailto:support@tarifino.ca?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    window.location.href = `mailto:support@tarifino.tech?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
     setSubmitted(true)
   }
 
@@ -43,7 +43,7 @@ export default function Contact() {
 
             {submitted ? (
               <p style={{ color: 'var(--color-text-muted)' }}>
-                Your email application should now contain a draft addressed to support@tarifino.ca. Please send it to
+                Your email application should now contain a draft addressed to support@tarifino.tech. Please send it to
                 complete your inquiry.
               </p>
             ) : (
