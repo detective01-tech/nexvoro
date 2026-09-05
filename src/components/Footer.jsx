@@ -26,7 +26,7 @@ export default function Footer({ showDisclaimer = false }) {
 
         {showDisclaimer && (
           <div className="footer-notice">
-            <strong style={{ color: '#e2e8f0' }}>Important Disclaimer</strong> Compare Before You Buy is a completely independent third-party mobile and internet support service. We are not affiliated with, endorsed by, or connected to Virgin Mobile, Cogeco Windsor, Telus Home Services, Public Mobile Canada, Virgin Plus, Bell Fibe TV, or any other network provider. We provide general mobile and internet support guidance for customers on any Canada network. We can advise you on how to resolve issues and direct you to the right resources, regardless of which network or broadband provider you use.
+            <strong style={{ color: '#e2e8f0' }}>Important Disclaimer</strong> Nexvoro High Tech Limited is an independent mobile and internet advisory service. We are not affiliated with, endorsed by, or connected to Virgin Mobile, Cogeco Windsor, Telus Home Services, Public Mobile Canada, Virgin Plus, Bell Fibe TV, or any other network provider. We provide general guidance and may receive commission from a partner when you choose a plan or service introduced during a consultation. Any relevant partner relationship will be disclosed before a referral.
           </div>
         )}
 

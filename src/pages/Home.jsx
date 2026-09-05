@@ -7,9 +7,9 @@ const TRUST_ITEMS = [
   'Canada-Based Consulting Team',
   'General Office Contact',
   'Practical Recommendations',
-  'Safe & Secure Service',
-  'Highly Rated Advisors',
-  '7 Days A Week',
+  'Clear, Practical Guidance',
+  'Independent Advice',
+  'Partner Relationships Disclosed',
 ]
 
 const SERVICES = [
@@ -30,7 +30,7 @@ const SERVICES = [
   },
   {
     title: 'Upgrades & New Plans',
-    desc: 'Looking for a better deal? We provide impartial advice on the best mobile and SIM-only plans available for your needs and budget.',
+    desc: 'Looking for a better deal? We explain available mobile and SIM-only plan options for your needs and budget.',
     link: 'Plan advice',
   },
   {
@@ -58,8 +58,8 @@ const SERVICES = [
 const STEPS = [
   {
     number: '1',
-    title: 'Call Our Free Number',
-    desc: `Dial ${PHONE_DISPLAY} — it's completely free from any Canada landline or mobile. No automated menus.`,
+    title: 'Call Our Consultation Line',
+    desc: `Dial ${PHONE_DISPLAY} to discuss your question with an advisor. Phone charges may depend on your carrier and plan.`,
   },
   {
     number: '2',
@@ -68,8 +68,8 @@ const STEPS = [
   },
   {
     number: '3',
-    title: 'Problem Solved',
-    desc: "We'll walk you through the solution step by step — most issues are resolved in a single call.",
+    title: 'Choose Your Next Step',
+    desc: "We'll explain practical next steps and, where relevant, connect you with a partner or provider resource.",
   },
 ]
 
@@ -90,7 +90,7 @@ export default function Home() {
             }}
           >
             <span className="hero-badge-dot" aria-hidden="true" />
-            Live Consultation Avalible
+            Live Consultation Available
           </a>
           <h1>Canada Mobile & Internet<br/>Support You Can Trust</h1>
           <p>
@@ -101,7 +101,7 @@ export default function Home() {
             <PhoneIcon width={18} height={18} /> General Inquiries: {PHONE_DISPLAY}
           </a>
           <p className="hero-fineprint">
-            This is an independent advisory service. We may earn commission from partners Free from all Canada landlines and mobiles..
+            Nexvoro is independent and is not a network provider. We may receive commission from partners when you choose a referred plan or service. Any relevant relationship will be disclosed before a referral.
           </p>
         </div>
       </section>

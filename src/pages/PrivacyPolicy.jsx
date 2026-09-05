@@ -99,7 +99,7 @@ export default function PrivacyPolicy() {
             </p>
             <p style={{ marginTop: 10 }}>
               <strong>Nexvoro High Tech Limited Privacy Office</strong><br />
-              Email: privacy@hitechsolutions-support.ca<br />
+              Email: privacy@nexvoro.ca<br />
               Office Line: 877 627 8313<br />
               Location: Canada
             </p>

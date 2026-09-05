@@ -93,27 +93,24 @@ export default function About() {
         <div className="container split">
           <img
             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop"
-            alt="Nexvoro High Tech Limited storefront on a Toronto street"
+            alt="Technology consultants meeting in an office"
           />
           <div>
             <h2 className="section-title" style={{ textAlign: 'left' }}>
               Our Story
             </h2>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: 16, lineHeight: 1.7 }}>
-              Founded in 2015, Nexvoro High Tech Limited began with a shared frustration among a group of IT
-              professionals who noticed a significant gap in the market: small to medium-sized
-              Canadian businesses were struggling to find reliable, understandable technical
-              consulting.
+                Nexvoro High Tech Limited provides independent mobile and internet guidance for
+                Canadians who need help understanding their options or deciding what to do next.
             </p>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: 16, lineHeight: 1.7 }}>
-              What started as a small consultancy in Toronto has grown into a nationwide network
-              of consulting hubs. We realized that technology shouldn’t be a barrier to success; it
-              should be the catalyst.
+                We explain common account, device, connectivity, and plan questions in plain language.
+                When a partner referral is relevant, we disclose that Nexvoro may receive commission
+                if you choose the referred service.
             </p>
             <p style={{ color: 'var(--color-text-muted)', lineHeight: 1.7 }}>
-              Today, we continue to uphold our founding principle: delivering enterprise-level
-              expertise with the approachability of a helpful neighbor. We are Nexvoro High Tech Limited, and
-              we are here to keep Canada connected.
+              We aim to provide clear information with the approachability of a helpful neighbor.
+              Nexvoro High Tech Limited is an independent advisory service.
             </p>
           </div>
         </div>

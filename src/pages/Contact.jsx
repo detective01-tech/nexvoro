@@ -9,6 +9,17 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault()
+    const formData = new FormData(e.currentTarget)
+    const subject = `Nexvoro inquiry from ${formData.get('name')}`
+    const body = [
+      `Name: ${formData.get('name')}`,
+      `Email: ${formData.get('email')}`,
+      `Phone: ${formData.get('phone') || 'Not provided'}`,
+      `Issue: ${formData.get('issue') || 'Not selected'}`,
+      '',
+      String(formData.get('message')),
+    ].join('\n')
+    window.location.href = `mailto:support@nexvoro.ca?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
     setSubmitted(true)
   }
 
@@ -32,8 +43,8 @@ export default function Contact() {
 
             {submitted ? (
               <p style={{ color: 'var(--color-text-muted)' }}>
-                Thanks — your message has been received. A Nexvoro High Tech Limited advisor will get back to
-                you shortly.
+                Your email application should now contain a draft addressed to support@nexvoro.ca. Please send it to
+                complete your inquiry.
               </p>
             ) : (
               <form onSubmit={handleSubmit}>
