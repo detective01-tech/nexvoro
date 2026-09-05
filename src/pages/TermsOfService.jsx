@@ -15,9 +15,8 @@ const SECTIONS = [
           Service. If you do not agree to these terms, please do not use our services.
         </p>
         <p>
-          These terms apply to all users of our independent mobile and internet support services, whether
-          accessed via our website, over the phone, or in person at our Canadian store
-          locations.
+          These terms apply to all users of our independent mobile and internet plan information and
+          referral services, whether accessed via our website or over the phone.
         </p>
       </>
     ),
@@ -48,14 +47,14 @@ const SECTIONS = [
       <>
         <p>As a user of our services, you agree to:</p>
         <ul>
-          <li>Provide accurate and complete information when requesting support.</li>
-          <li>Back up all data before submitting a device for inspection or service.</li>
-          <li>Ensure you have the legal right to authorize adjustments or modifications to the devices you submit.</li>
+          <li>Provide accurate and complete information when requesting plan information or a referral.</li>
+          <li>Review provider pricing, availability, eligibility, and terms before making a purchase.</li>
+          <li>Keep your account credentials and payment information private.</li>
           <li>Treat our staff and consultants with respect.</li>
         </ul>
         <div className="tos-callout">
-          <strong>Important Note:</strong> Nexvoro High Tech Limited is not responsible for data loss. Data
-          backup is strictly the responsibility of the user.
+          <strong>Important Note:</strong> Nexvoro High Tech Limited does not operate the provider services
+          introduced through referrals. The provider is responsible for its own service, pricing, and terms.
         </div>
       </>
     ),
@@ -130,8 +129,8 @@ export default function TermsOfService() {
         <div className="container">
           <h1>Terms of Service</h1>
           <p>
-            Please read these terms carefully before using our independent mobile and internet support
-            services. Last updated: October 2023.
+            Please read these terms carefully before using our independent mobile and internet plan
+            information and referral services. Last updated: September 2026.
           </p>
         </div>
       </section>

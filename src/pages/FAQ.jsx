@@ -6,35 +6,35 @@ import { SearchIcon, ChevronDownIcon } from '../components/Icons.jsx'
 
 const CATEGORIES = [
   {
-    title: 'SIM & Network',
+    title: 'Mobile Plans',
     items: [
-      { q: 'How do I activate my new SIM card?', a: 'Insert the SIM, then contact our office to discuss activation steps and network onboarding guidance.' },
-      { q: 'Why is my data speed slow?', a: 'Slow data is usually caused by network congestion, a distant tower, or an outdated APN setting — we can check all three with you.' },
-      { q: 'Does my plan include 5G?', a: '5G eligibility depends on your device and your carrier plan. Tell us your phone model and we’ll confirm eligibility.' },
+      { q: 'What should I compare in a mobile plan?', a: 'Compare monthly price, data allowance, contract length, coverage information, roaming, and any activation or cancellation terms.' },
+      { q: 'What is a SIM-only plan?', a: 'A SIM-only plan generally provides mobile service without a new handset. Compare the included data, contract terms, and total monthly cost before choosing.' },
+      { q: 'Can you recommend a specific provider?', a: 'We provide independent information and may introduce partner services. Any relevant partner relationship and commission will be disclosed before you choose to continue.' },
     ],
   },
   {
-    title: 'Billing',
+    title: 'Plan Pricing',
     items: [
-      { q: 'When is my bill due?', a: 'Billing dates vary by carrier and plan. We can help you locate your due date on your latest statement.' },
-      { q: 'How do I set up auto-pay?', a: 'We can guide you through enabling auto-pay on your carrier’s app or website step by step.' },
-      { q: 'What are these unexpected charges?', a: 'Unexpected charges are often overage fees, add-ons, or prorated changes — we’ll help you break down the line items.' },
+      { q: 'What costs should I check before choosing a plan?', a: 'Review the recurring monthly price, taxes, activation charges, equipment costs, early cancellation terms, and any promotional expiry date.' },
+      { q: 'Are partner referrals free?', a: 'Nexvoro does not charge a separate referral fee unless clearly stated. We may receive commission from a partner if you choose an introduced plan or service.' },
+      { q: 'Are advertised prices guaranteed?', a: 'Prices, availability, and eligibility are set by each provider and can change. Confirm the final offer and terms directly before purchasing.' },
     ],
   },
   {
-    title: 'Devices',
+    title: 'Internet Plans',
     items: [
-      { q: 'How do I upgrade my phone?', a: 'We’ll explain your upgrade eligibility, trade-in options, and help you compare current device offers.' },
-      { q: 'What is the return policy for accessories?', a: 'Return windows vary by retailer; we can point you to the correct policy for where the accessory was purchased.' },
-      { q: 'Can I bring my own device?', a: 'Most unlocked devices work across Canadian networks. We can confirm compatibility before you switch.' },
+      { q: 'What should I compare in a home internet plan?', a: 'Compare advertised speed, data limits, installation costs, equipment fees, contract terms, and availability at your address.' },
+      { q: 'Can I compare broadband providers?', a: 'Yes. We can explain common plan features and connect you with a partner when you choose to explore a referral.' },
+      { q: 'Does Nexvoro install internet service?', a: 'No. Nexvoro provides plan information and referrals. The selected provider is responsible for installation and service delivery.' },
     ],
   },
   {
-    title: 'Account Security',
+    title: 'Switching Plans',
     items: [
-      { q: 'How do I reset my password?', a: 'We can walk you through your carrier’s official password reset flow safely, without ever asking for your password ourselves.' },
-      { q: 'How do I enable Two-Factor Authentication (2FA)?', a: 'We’ll show you where to find 2FA settings in your account and how to set up an authenticator app or SMS codes.' },
-      { q: 'I lost my phone, what should I do?', a: 'Call us right away — we’ll help you suspend service, locate the device if possible, and secure your account.' },
+      { q: 'What should I consider before switching providers?', a: 'Check contract end dates, cancellation terms, number transfer requirements, equipment returns, installation timing, and the final monthly price.' },
+      { q: 'Can I keep my phone number?', a: 'Number-transfer eligibility and steps depend on the provider and plan. Confirm the process with the provider before cancelling your current service.' },
+      { q: 'Does Nexvoro cancel my current service?', a: 'No. We provide information and optional referrals. You remain responsible for confirming and completing any provider changes.' },
     ],
   },
 ]
@@ -82,8 +82,7 @@ export default function FAQ() {
         <div className="container text-center">
           <h1 style={{ fontSize: 36, marginBottom: 12 }}>Frequently Asked Questions</h1>
           <p className="section-subtitle" style={{ maxWidth: 560, margin: '0 auto 32px' }}>
-            Find answers to the most common questions about our technology consulting services, billing,
-            and account management.
+            Find answers about mobile plans, SIM-only options, internet plans, switching, and partner referrals.
           </p>
           <div className="search-bar">
             <SearchIcon width={18} height={18} />
@@ -106,10 +105,10 @@ export default function FAQ() {
         <div className="container text-center">
           <h2 className="section-title">Still have questions?</h2>
           <p className="section-subtitle" style={{ margin: '0 auto 32px' }}>
-            Our Canadian technology consulting team is ready to help you with anything else you need.
+            Our Canadian plan information team can help you compare your next options.
           </p>
           <Link to="/contact" className="btn btn-primary">
-            Contact Consultants
+            Discuss Plan Options
           </Link>
         </div>
       </section>

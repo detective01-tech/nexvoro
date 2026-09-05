@@ -23,9 +23,9 @@ export default function Header({ variant = 'inner' }) {
           <div className="container">
             <div className="topbar-left">
               <div className="topbar-text">
-                <span className="topbar-phone">Free Helpline: <a href={PHONE_TEL}>{PHONE_DISPLAY}</a></span>
-                <span className="topbar-tagline">Canada Mobile & Internet Support</span>
-                <span>Call Now — No Wait</span>
+                <span className="topbar-phone">Plan Information: <a href={PHONE_TEL}>{PHONE_DISPLAY}</a></span>
+                <span className="topbar-tagline">Canada Mobile & Internet Plans</span>
+                <span>Independent Referral Service</span>
               </div>
             </div>
           </div>
