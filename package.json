@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://wearixastore-cpu.github.io/slootechnoo/",
+  "homepage": "https://detective01-tech.github.io/nexvoro/",
   "scripts": {
     "dev": "vite",
     "build": "node node_modules/vite/bin/vite.js build",
