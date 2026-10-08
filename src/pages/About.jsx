@@ -48,7 +48,7 @@ export default function About() {
             </a>
           </div>
           <div
-            className=\"about-image-fallback\"
+            className="about-image-fallback"
             style={{{
               minHeight: 320,
               borderRadius: 16,
@@ -105,7 +105,7 @@ export default function About() {
       <section className="section">
         <div className="container split">
           <div
-            className=\"about-image-fallback\"
+            className="about-image-fallback"
             style={{{
               minHeight: 280,
               borderRadius: 16,
