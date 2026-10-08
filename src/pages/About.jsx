@@ -47,10 +47,24 @@ export default function About() {
               Meet Our Team
             </a>
           </div>
-          <img
-            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop"
-            alt="Tarifino High Tech Limited team collaborating around a whiteboard"
-          />
+          <div
+            className=\"about-image-fallback\"
+            style={{{
+              minHeight: 320,
+              borderRadius: 16,
+              background: 'linear-gradient(135deg, #0F2A4A 0%, #1B6EF3 100%)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              color: '#ffffff',
+              fontSize: 20,
+              fontWeight: 600,
+              padding: 24,
+              textAlign: 'center',
+            }}}
+          >
+            Tarifino High Tech Limited
+          </div>
         </div>
       </section>
 
@@ -90,10 +104,24 @@ export default function About() {
 
       <section className="section">
         <div className="container split">
-          <img
-            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop"
-            alt="Technology consultants meeting in an office"
-          />
+          <div
+            className=\"about-image-fallback\"
+            style={{{
+              minHeight: 280,
+              borderRadius: 16,
+              background: 'linear-gradient(135deg, #1B6EF3 0%, #0F2A4A 100%)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              color: '#ffffff',
+              fontSize: 20,
+              fontWeight: 600,
+              padding: 24,
+              textAlign: 'center',
+            }}}
+          >
+            Independent Canadian Plan Information
+          </div>
           <div>
             <h2 className="section-title" style={{ textAlign: 'left' }}>
               Our Story
