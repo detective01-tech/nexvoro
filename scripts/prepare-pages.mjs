@@ -1,6 +1,16 @@
 import { cp, mkdir } from 'node:fs/promises'
 
-const routes = ['about', 'contact', 'faq', 'privacy-policy', 'terms-of-service']
+const routes = [
+  'about',
+  'contact',
+  'faq',
+  'privacy-policy',
+  'terms-of-service',
+  'guides',
+  'guides/mobile-plan-guide',
+  'guides/internet-plan-guide',
+  'guides/switching-guide'
+]
 
 for (const route of routes) {
   await mkdir(`dist/${route}`, { recursive: true })
