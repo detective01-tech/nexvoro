@@ -12,6 +12,7 @@ export const openPhoneDialer = (tel) => {
 
 export const NAV_LINKS = [
   { label: 'About', to: '/about' },
+  { label: 'Guides', to: '/guides' },
   { label: 'Contact', to: '/contact' },
   { label: 'FAQ', to: '/faq' },
   { label: 'Privacy Policy', to: '/privacy-policy' },
