@@ -49,7 +49,7 @@ export default function About() {
           </div>
           <div
             className="about-image-fallback"
-            style={{{
+            style={{
               minHeight: 320,
               borderRadius: 16,
               background: 'linear-gradient(135deg, #0F2A4A 0%, #1B6EF3 100%)',
@@ -61,7 +61,7 @@ export default function About() {
               fontWeight: 600,
               padding: 24,
               textAlign: 'center',
-            }}}
+            }}
           >
             Tarifino High Tech Limited
           </div>
@@ -106,7 +106,7 @@ export default function About() {
         <div className="container split">
           <div
             className="about-image-fallback"
-            style={{{
+            style={{
               minHeight: 280,
               borderRadius: 16,
               background: 'linear-gradient(135deg, #1B6EF3 0%, #0F2A4A 100%)',
@@ -118,7 +118,7 @@ export default function About() {
               fontWeight: 600,
               padding: 24,
               textAlign: 'center',
-            }}}
+            }}
           >
             Independent Canadian Plan Information
           </div>
